@@ -92,17 +92,20 @@ Obecnie zespoły badawcze mają utrudnione zarządzanie projektami z powodu brak
 |3| Niedostępność Kluczowych członków zespołu |Niskie|Wysoki|Zastępstwa i dokumentacja procesów|
 |4| Błędy w integracji API                   |Średnie|Średni|Testy automatyczne i przegląd kodu|
 
-## 9. Oczekiwane rezultaty
+## 9. Rezultaty projektu
 
 - Działająca aplikacja webowa do zarządzania projektami badawczymi
 - Dokumentacja techniczna i użytkowa
-- Raport końcowy oraz prezentacja projektu
+- Raport końcowy
+- Prezentacja zespołowa (PowerPoint / PDF).
 
 ## 10. Kryteria sukcesu
 
 - Implementacja wszystkich kluczowych funkcji zgodnie z wymaganiami
-- Aplikacja działa stabilnie przez tydzień w środowisku testowym
-- Pozytywna ocena przez prowadzącego i użytkowników testowych
+- Aplikacja uruchamia się lokalnie i działa poprawnie
+- Dokumentacja zawiera pełny zestaw diagramów UML
+- Testy akceptacyjne zakończone wynikiem pozytywnym.
+- Projekt został pozytywnie oceniony przez prowadzącego.
 
 ## 11. Akceptacja projektu
 
