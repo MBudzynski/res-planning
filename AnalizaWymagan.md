@@ -91,7 +91,7 @@
   - A1: Dane finansowe są niekompletne → system informuje o brakujących informacjach
   - A2: Problem z dostępem do danych → system wyświetla komunikat o błędzie  
 
-![kontrolaStanuBudzetu](diagramy%2kontrolaStanuBudzetu.png)
+![kontrolaStanuBudzetu](diagramy%2FkontrolaStanuBudzetu.png)
 
 
 **Dodawanie zapotrzebowania na sprzęt i materiały:**
