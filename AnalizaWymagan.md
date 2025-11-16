@@ -51,7 +51,7 @@
 
 ## 3. Specyfikacja i przypadki użycia
 
-**Weryfikacji i akceptacji zamówień :**
+**Weryfikacji i akceptacji zamówień:**
 - **Aktorzy:** Kieorwnik projektu, Księgowa 
 - **Warunki początkowe:** 
 
@@ -61,14 +61,18 @@
 - **Scenariusz główny:**
 
   - Użytkownik wybiera moduł „Zamówienia”
+  - Użytkownik wyszukuje i wybiera projekt
   - System wyświetla listę oczekujących zamówień
   - Użytkownik przegląda szczegóły zamówienia
+  - Weryfikacja środków potrzebnych do realizacji zamówienia
   - Użytkownik zatwierdza lub odrzuca zamówienie
   - System aktualizuje status zamówienia i powiadamia zainteresowane osoby
 - **Scenariusze alternatywne:**
 
   - A1: Zamówienie zawiera błędne dane → system wyświetla komunikat o błędzie i nie pozwala na akceptację
   - A2: Problem z połączeniem do bazy → system informuje o błędzie i pozwala na ponowną próbę
+
+![weryfikacjaIAkcpetacjaZamowienia.png](diagramy%2FweryfikacjaIAkcpetacjaZamowienia.png)![Weryfikacji i akceptacji zamówień](ścieżka/do/FweryfikacjaIAkcpetacjaZamowienia.png)
 
 **Kontrola stanu budżetu projektu :**
 - **Aktorzy:** Księgowa
