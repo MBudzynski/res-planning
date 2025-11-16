@@ -93,7 +93,6 @@
 
 ![kontrolaStanuBudzetu](diagramy%2FkontrolaStanuBudzetu.png)
 
-
 **Dodawanie zapotrzebowania na sprzęt i materiały:**
 - **Aktorzy:** Kierownik projektu, Lider zespołu
 - **Warunki początkowe:**
@@ -111,6 +110,8 @@
 - **Scenariusze alternatywne:**
   - A1: Nie wypełniono wymaganych pól → system wyświetla komunikat o błędzie
   - A2: Problem z zapisem do bazy → system proponuje ponowienie operacji  
+
+![ZgloszenieZapotrzebowaniaNaSprzet.png](diagramy%2FZgloszenieZapotrzebowaniaNaSprzet.png)
 
 **Generowanie raportów kosztów projektu:**
 - **Aktorzy:** Kierownik projektu, Księgowa, Opiekun
