@@ -91,6 +91,9 @@
   - A1: Dane finansowe są niekompletne → system informuje o brakujących informacjach
   - A2: Problem z dostępem do danych → system wyświetla komunikat o błędzie  
 
+![kontrolaStanuBudzetu](diagramy%2kontrolaStanuBudzetu.png)
+
+
 **Dodawanie zapotrzebowania na sprzęt i materiały:**
 - **Aktorzy:** Kierownik projektu, Lider zespołu
 - **Warunki początkowe:**
