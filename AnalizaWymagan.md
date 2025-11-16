@@ -52,7 +52,7 @@
 ## 3. Specyfikacja i przypadki użycia
 
 **Weryfikacji i akceptacji zamówień:**
-- **Aktorzy:** Kieorwnik projektu, Księgowa 
+- **Aktorzy:** kieorwnik projektu, lider zespołu, księgowa 
 - **Warunki początkowe:** 
 
   - Użytkownik zalogowany do systemu
@@ -72,9 +72,9 @@
   - A1: Zamówienie zawiera błędne dane → system wyświetla komunikat o błędzie i nie pozwala na akceptację
   - A2: Problem z połączeniem do bazy → system informuje o błędzie i pozwala na ponowną próbę
 
-![weryfikacjaIAkcpetacjaZamowienia.png](diagramy%2FweryfikacjaIAkcpetacjaZamowienia.png)![Weryfikacji i akceptacji zamówień](ścieżka/do/FweryfikacjaIAkcpetacjaZamowienia.png)
+![weryfikacjaIAkcpetacjaZamowienia](diagramy%2FweryfikacjaIAkcpetacjaZamowienia.png)
 
-**Kontrola stanu budżetu projektu :**
+**Kontrola stanu budżetu projektu:**
 - **Aktorzy:** Księgowa
 - **Warunki początkowe:**
   - Użytkownik zalogowany do systemu
@@ -82,14 +82,16 @@
   - Projekt posiada przypisany budżet
 - **Scenariusz główny:**
   - Księgowa wybiera moduł „Finanse”
+  - Użytkownik wyszukuje i wybiera projekt
   - System wyświetla aktualny stan budżetu projektu
   - Księgowa przegląda przydział środków i wykorzystanie budżetu
+  - Księgowa przegląda zrealizowane zamówienia i faktury
   - System generuje raport z aktualnym stanem budżetu
 - **Scenariusze alternatywne:**
   - A1: Dane finansowe są niekompletne → system informuje o brakujących informacjach
   - A2: Problem z dostępem do danych → system wyświetla komunikat o błędzie  
 
-**Dodawanie zapotrzebowania na sprzęt i materiały :**
+**Dodawanie zapotrzebowania na sprzęt i materiały:**
 - **Aktorzy:** Kierownik projektu, Lider zespołu
 - **Warunki początkowe:**
   - Użytkownik zalogowany do systemu
@@ -97,6 +99,7 @@
   - Projekt wymaga zakupu materiałów lub sprzętu
 - **Scenariusz główny:**
   - Użytkownik wybiera moduł „Zamówienia”
+  - Użytkownik wyszukuje i wybiera projekt
   - Kliknięcie przycisku „Dodaj zapotrzebowanie”
   - System wyświetla formularz zapotrzebowania
   - Użytkownik wprowadza szczegóły (rodzaj materiału, ilość, termin)
@@ -106,7 +109,7 @@
   - A1: Nie wypełniono wymaganych pól → system wyświetla komunikat o błędzie
   - A2: Problem z zapisem do bazy → system proponuje ponowienie operacji  
 
-**Generowanie raportów kosztów projektu :**
+**Generowanie raportów kosztów projektu:**
 - **Aktorzy:** Kierownik projektu, Księgowa, Opiekun
 - **Warunki początkowe:**
   - Użytkownik zalogowany do systemu
