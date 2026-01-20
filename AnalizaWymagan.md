@@ -2,129 +2,94 @@
 
 ## 1. Interesariusze
 
-| L.p. | Interesariusz      | Symbol |
-|------|------------------|--------|
-| 1.   | Opiekun           | O      |
-| 2.   | Kierownik projektu| KP     |
-| 3.   | Lider zespołu     | LZ     |
-| 4.   | Członek zespołu   | CP     |
-| 5.   | Księgowa          | K      |
+| L.p. | Interesariusz      | Opis               |
+|------|--------------------|--------------------|
+| 1.   | Opiekun/Dyrektor   | Rola ta koncentruje się na strategicznym nadzorze i analizie wyników w skali całej organizacji.   |
+| 2.   | Kierownik projektu | Główny planista i osoba odpowiedzialna za merytoryczną oraz finansową stronę konkretnego badania. |
+| 3.   | Lider zespołu      | Osoba zarządzająca ludźmi i koordynująca codzienne działania badawcze.     |
+| 4.   | Członek zespołu    | Bezpośredni wykonawca zadań, odpowiedzialny za dostarczanie merytorycznego wkładu w projekt.  |
+| 5.   | Księgowa           | soba odpowiedzialna za poprawność finansową, rozliczenia oraz zgodność z przepisami.       |
 
 ## 2. Wymagania funkcjonalne 
 
+### Opiekun/Dyrektor
 
-| L.p. | Symbol interesariusza | Moduł         | Oznaczenie | Opis                                                                             | Priorytet | Status        |
-|------|-----------------------|---------------|------------|----------------------------------------------------------------------------------|-----------|---------------|
-| 1    | KP                 | Zarządzanie zadaniami | ZAD1 | Dodawanie, edycja i usuwanie zadań                                               | Wymagane  | Do realizacji |
-| 2    | KP                 | Harmonogram       | H1   | Tworzenie i edycja harmonogramu projektu                                         | Wymagane  | Do realizacji |
-| 3    | KP, LZ             | Zamówienia        | ZAM1 | Dodawanie zapotrzebowania na sprzęt i materiały                                  | Wymagane  | Do realizacji |
-| 4    | KP, K              | Zamówienia        | ZAM2 | Weryfikacja i akceptacja zamówień                                                | Wymagane  | Do realizacji |
-| 5    | KP                 | Zespoły           | ZES1 | Tworzenie zespołów i dodawanie pracowników                                       | Wymagane  | Do realizacji |
-| 6    | KP                 | Zespoły           | ZES2 | Przydzielanie zadań do zespołów                                                  | Wymagane  | Do realizacji |
-| 7    | LZ                 | Zespoły           | ZES3 | Przydzielanie zadań członkom zespołu                                             | Wymagane  | Do realizacji |
-| 8    | CP                 | Zespoły           | ZES4 | Dostarczanie/raportowanie wyników pracy                                          | Wymagane  | Do realizacji |
-| 9    | CP                 | Profil użytkownika| PRO1 | Edycja danych osobowych                                                          | Średni    | Do realizacji |
-| 10   | CP                 | Profil użytkownika| PRO2 | Dodawanie kwalifikacji i umiejętności                                            | Średni    | Do realizacji |
-| 11   | KP, LZ             | Zespoły           | ZES5 | Podgląd statusu realizowanych zadań                                              | Wymagane  | Do realizacji |
-| 12   | KP, K              | Finanse           | FIN1 | Wprowadzanie budżetu projektu i podział środków na kategorie (np. zakup sprzętu) | Wymagane  | Do realizacji |
-| 13   | KP, K              | Finanse           | FIN2 | Zarządzanie fakturami i przypisywanie ich do projektów                           | Wymagane  | Do realizacji |
-| 14   | K                  | Finanse           | FIN3 | Kontrola stanu budżetu projektu                                                  | Wymagane  | Do realizacji |
-| 15   | K                  | Finanse           | FIN4 | Rozliczanie i opłacanie faktur                                                   | Wymagane  | Do realizacji |
-| 16   | KP, K, O           | Raporty           | RAP1 | Generowanie raportów kosztów projektu                                            | Wymagane  | Do realizacji |
-| 17   | O                  | Raporty           | RAP2 | Nadzór nad realizowanymi projektami                                              | Wymagane  | Do realizacji |
-| 18   | CP, LZ, KP         | Komunikacja       | KOM1 | Wysyłanie powiadomień i przypomnień o zadaniach i zmianach statusu               | Wymagane  | Do realizacji |
-| 19   | CP, LZ, KP         | Komunikacja       | KOM2 | Umożliwienie sprawnej komunikacji między członkami projektu                      | Wymagane  | Do realizacji |
-| 20   | CP, LZ, KP, K, O   | Autoryzacja       | AUT1 | Logowanie do systemu i zmiana hasła                                              | Wymagane  | Do realizacji |
+- **(Wymagene) Nadzór nad portfelem projektów:** Możliwość monitorowania statusu wszystkich realizowanych projektów w systemie.
+
+- **(Wymagene) Analiza finansowa:** Generowanie zbiorczych raportów kosztów dla wybranych projektów lub ich grup.
+
+- **(Wymagene) Podgląd wyników:** Dostęp do podglądu wypracowanych rezultatów i efektów prac dostarczanych przez zespoły.
+
+- **(Wymagene) Monitoring harmonogramów:** Wgląd w harmonogramy projektów w celu weryfikacji terminowości kluczowych etapów realizacji projektów.
+
+- **(Wymagene) Akceptacja:** kamieni milowych oraz zatwierdzanie raportów końcowych przed ich wysłaniem do instytucji finansujących (np. grantodawców).
+
+### Kierownik projektu
+
+- **(Wymagene) Zarządzanie strukturą prac:** Dodawanie, edycja oraz usuwanie zadań w ramach struktury projektu.
+
+- **(Wymagene) Planowanie czasowe:** Tworzenie i modyfikacja harmonogramu projektu.
+
+- **(Wymagene) Zarządzanie zapotrzebowaniem:** Składanie wniosków o zakup sprzętu i materiałów niezbędnych do realizacji projektu.
+
+- **(Wymagene) Planowanie budżetowe:** Wprowadzanie budżetu i precyzyjny podział środków na kategorie kosztowe, takie jak aparatura.
+
+- **(Wymagene) Weryfikacja wydatków:** Przeglądanie szczegółów zamówień i ich akceptacja w ramach posiadanych uprawnień.
+
+- **(Wymagene) Raportowanie operacyjne:** Generowanie raportów kosztów oraz postępów realizacji projektu w określonych zakresach czasowych.
+
+### Księgowa
+
+- **(Wymagene) Monitoring budżetu:** Stały podgląd aktualnego stanu budżetu, przydziału środków oraz ich wykorzystania.
+
+- **(Wymagene) Zarządzanie dokumentacją kosztową** Rejestrowanie faktur i przypisywanie ich do odpowiednich projektów badawczych
+
+- **(Wymagene) Realizacja płatności:** Obsługa procesów rozliczania i opłacania zweryfikowanych faktur
+
+- **(Wymagene) Weryfikacja finansowa zamówień:** Sprawdzanie dostępności środków w budżecie przed ostateczną akceptacją zapotrzebowania na sprzęt
+
+- **(Wymagene) Generowanie sprawozdań:** Tworzenie raportów finansowych z uwzględnieniem zrealizowanych zamówień i faktur
+
+### Lider zespołu
+
+- **(Wymagene) Formowanie zespołów:** Tworzenie grup roboczych oraz przypisywanie do nich odpowiednich pracowników
+
+- **(Wymagene) Delegowanie odpowiedzialności:** Przydzielanie konkretnych zadań do zespołów oraz poszczególnych ich członków
+
+- **(Średni) Kontrola operacyjna:** Bieżący podgląd statusu realizacji zadań przez podległych pracowników
+
+- **(Wymagene) Weryfikacja merytoryczna potrzeb:** Przeglądanie i zatwierdzanie zapotrzebowania na materiały zgłoszonego przez członków zespołu przed przekazaniem go dale
+
+- **(Wymagene) Komunikacja wewnętrzna:** Inicjowanie i prowadzenie sprawnej wymiany informacji między członkami projektu za pomocą systemu
+
+- **(Wymagene) Zarządzanie strukturą prac:** Dodawanie, edycja oraz usuwanie zadań
+
+### Członek zespołu
+
+- **(Wymagene) Raportowanie postępów:** Przesyłanie wyników wykonanej pracy oraz aktualizacja statusów przypisanych zadań
+
+- **(Wymagene) Obsługa powiadomień:** Odbieranie automatycznych komunikatów o nadchodzących terminach i zmianach w zadaniach
+
+- **(Wymagene) Wymiana informacji:** Korzystanie z modułów komunikacyjnych do współpracy z innymi uczestnikami projektu
+
+- **(Średni) Rejestrowania czasu:** Możliwość rejestrowania czasu pracy (time-tracking) poświęconego na konkretne eksperymenty lub analizy w ramach projektu
+
+- **(Średni) Zarządzanie profilem** Edycja danych osobowych oraz aktualizacja bazy kwalifikacji i umiejętności
 
 ## 3. Wymagania niefunkcjonalne 
 
 
-| L.p. | Opis                                                                                   |
-|------|----------------------------------------------------------------------------------------|
-| 1    | **Dostępność i niezawodność** – System powinien działać 24/7                            |
-| 2    | **Wydajność** – Czas odpowiedzi systemu powinien być poniżej 1 sekundy                  |
-| 3    | **Bezpieczeństwo** – Dane muszą być szyfrowane i chronione przed nieautoryzowanym dostępem |
-| 4    | **Skalowalność** – System powinien umożliwiać łatwe rozszerzanie funkcjonalności i zasobów |
-| 5    | **Zgodność z przepisami** – System powinien spełniać wymagania RODO i prawa finansowego |
-| 6    | **Dostępność interfejsu** – UI powinno być zgodne z wytycznymi WCAG dla osób niepełnosprawnych |
-| 7    | **Łatwość utrzymania** – Kod i struktura systemu powinny ułatwiać rozwój i konserwację  |
+| L.p. | Opis                                                                                                                                                    |
+|------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1    | **Dostępność i niezawodność** – System powinien być dostępny w trybie 24/7                                                                              |
+| 2    | **Wydajność** - System musi reagować na akcje użytkownika w czasie poniżej 1 sekundy                                                                    |
+| 3    | **Szyfrowanie** – Wszystkie dane muszą być szyfrowane zarówno podczas przesyłania (protokół TLS/SSL)                                                    |
+| 4    | **Ochrona przed nieautoryzowanym dostępem** – System musi blokować dostęp do wrażliwych modułów (finanse, zamówienia) osobom bez odpowiednich uprawnień |
+| 5    | **Skalowalność** – Architektura musi pozwalać na łatwe rozszerzanie zasobów (np. obsługę większej liczby projektów) oraz dodawanie nowych funkcjonalności bez konieczności przebudowy fundamentów systemu   |
+| 6    | **Zgodność z prawem** – System musi być w pełni zgodny z RODO w zakresie ochrony danych osobowych oraz z przepisami prawa finansowego                   |
+| 7    | **Standardy WCAG** –  Interfejs użytkownika (UI) musi być zaprojektowany zgodnie z wytycznymi WCAG, aby umożliwić komfortową pracę osobom z różnymi niepełnosprawnościami   |
+| 8    | **Komunikacja z użytkownikiem** – Kod i struktura systemu powinny ułatwiać rozwój i konserwację |
+| 9    | **Reakcja na brak danych:** – W sytuacjach, gdy dane w wybranym zakresie nie istnieją lub są niekompletne, system nie może wygenerować pustego błędu, lecz musi poinstruować użytkownika o konieczności zmiany zakresu lub uzupełnienia informacji  |
 
-## 3. Specyfikacja i przypadki użycia
+# 4. Specyfikacja przypadków użycia
 
-**Weryfikacji i akceptacji zamówień:**
-- **Aktorzy:** kieorwnik projektu, lider zespołu, księgowa 
-- **Warunki początkowe:** 
-
-  - Użytkownik zalogowany do systemu
-  - Użytkownik posiada uprawnienia do weryfikacji zamówień
-  - Zamówienie oczekujące na akceptacje
-- **Scenariusz główny:**
-
-  - Użytkownik wybiera moduł „Zamówienia”
-  - Użytkownik wyszukuje i wybiera projekt
-  - System wyświetla listę oczekujących zamówień
-  - Użytkownik przegląda szczegóły zamówienia
-  - Weryfikacja środków potrzebnych do realizacji zamówienia
-  - Użytkownik zatwierdza lub odrzuca zamówienie
-  - System aktualizuje status zamówienia i powiadamia zainteresowane osoby
-- **Scenariusze alternatywne:**
-
-  - A1: Zamówienie zawiera błędne dane → system wyświetla komunikat o błędzie i nie pozwala na akceptację
-  - A2: Problem z połączeniem do bazy → system informuje o błędzie i pozwala na ponowną próbę
-
-![weryfikacjaIAkcpetacjaZamowienia](diagramy%2FweryfikacjaIAkcpetacjaZamowienia.png)
-
-**Kontrola stanu budżetu projektu:**
-- **Aktorzy:** Księgowa
-- **Warunki początkowe:**
-  - Użytkownik zalogowany do systemu
-  - Użytkownik posiada uprawnienia do podglądu budżetu
-  - Projekt posiada przypisany budżet
-- **Scenariusz główny:**
-  - Księgowa wybiera moduł „Finanse”
-  - Użytkownik wyszukuje i wybiera projekt
-  - System wyświetla aktualny stan budżetu projektu
-  - Księgowa przegląda przydział środków i wykorzystanie budżetu
-  - Księgowa przegląda zrealizowane zamówienia i faktury
-  - System generuje raport z aktualnym stanem budżetu
-- **Scenariusze alternatywne:**
-  - A1: Dane finansowe są niekompletne → system informuje o brakujących informacjach
-  - A2: Problem z dostępem do danych → system wyświetla komunikat o błędzie  
-
-![kontrolaStanuBudzetu](diagramy%2FkontrolaStanuBudzetu.png)
-
-**Dodawanie zapotrzebowania na sprzęt i materiały:**
-- **Aktorzy:** Kierownik projektu, Lider zespołu
-- **Warunki początkowe:**
-  - Użytkownik zalogowany do systemu
-  - Użytkownik posiada uprawnienia do dodawania zapotrzebowań
-  - Projekt wymaga zakupu materiałów lub sprzętu
-- **Scenariusz główny:**
-  - Użytkownik wybiera moduł „Zamówienia”
-  - Użytkownik wyszukuje i wybiera projekt
-  - Kliknięcie przycisku „Dodaj zapotrzebowanie”
-  - System wyświetla formularz zapotrzebowania
-  - Użytkownik wprowadza szczegóły (rodzaj materiału, ilość, termin)
-  - Użytkownik zatwierdza formularz
-  - System zapisuje zapotrzebowanie i wysyła powiadomienie do odpowiedzialnych osób
-- **Scenariusze alternatywne:**
-  - A1: Nie wypełniono wymaganych pól → system wyświetla komunikat o błędzie
-  - A2: Problem z zapisem do bazy → system proponuje ponowienie operacji  
-
-![ZgloszenieZapotrzebowaniaNaSprzet.png](diagramy%2FZgloszenieZapotrzebowaniaNaSprzet.png)
-
-**Generowanie raportów kosztów projektu:**
-- **Aktorzy:** Kierownik projektu, Księgowa, Opiekun
-- **Warunki początkowe:**
-  - Użytkownik zalogowany do systemu
-  - Użytkownik posiada uprawnienia do generowania raportów
-  - Projekt posiada wprowadzone dane finansowe
-- **Scenariusz główny:**
-  - Użytkownik wybiera moduł „Raporty”
-  - System wyświetla opcje raportów kosztów
-  - Użytkownik wybiera zakres danych i typ raportu
-  - System generuje raport i wyświetla podgląd
-  - Użytkownik może pobrać raport w formacie PDF lub CSV
-- **Scenariusze alternatywne:**
-  - A1: Brak danych w wybranym zakresie → system wyświetla komunikat i pozwala wybrać inny zakres
-  - A2: Problem z generowaniem raportu → system proponuje ponowienie operacji  
