@@ -2,13 +2,13 @@
 
 ## 1. Interesariusze
 
-| L.p. | Interesariusz      | Opis               |
-|------|--------------------|--------------------|
+| L.p. | Interesariusz      | Opis                                                                                              |
+|------|--------------------|---------------------------------------------------------------------------------------------------|
 | 1.   | Opiekun/Dyrektor   | Rola ta koncentruje się na strategicznym nadzorze i analizie wyników w skali całej organizacji.   |
 | 2.   | Kierownik projektu | Główny planista i osoba odpowiedzialna za merytoryczną oraz finansową stronę konkretnego badania. |
-| 3.   | Lider zespołu      | Osoba zarządzająca ludźmi i koordynująca codzienne działania badawcze.     |
-| 4.   | Członek zespołu    | Bezpośredni wykonawca zadań, odpowiedzialny za dostarczanie merytorycznego wkładu w projekt.  |
-| 5.   | Księgowa           | soba odpowiedzialna za poprawność finansową, rozliczenia oraz zgodność z przepisami.       |
+| 3.   | Lider zespołu      | Osoba zarządzająca ludźmi i koordynująca codzienne działania badawcze.                            |
+| 4.   | Członek zespołu    | Bezpośredni wykonawca zadań, odpowiedzialny za dostarczanie merytorycznego wkładu w projekt.      |
+| 5.   | Księgowa           | Osoba odpowiedzialna za poprawność finansową, rozliczenia oraz zgodność z przepisami.             |
 
 ## 2. Wymagania funkcjonalne 
 
@@ -92,4 +92,65 @@
 | 9    | **Reakcja na brak danych:** – W sytuacjach, gdy dane w wybranym zakresie nie istnieją lub są niekompletne, system nie może wygenerować pustego błędu, lecz musi poinstruować użytkownika o konieczności zmiany zakresu lub uzupełnienia informacji  |
 
 # 4. Specyfikacja przypadków użycia
+
+## 1. Rola: Opiekun / Dyrektor
+
+### Nadzór nad portfelem projektów
+*   **Aktorzy:** Opiekun/Dyrektor
+*   **Warunki początkowe:** Użytkownik zalogowany z uprawnieniami strategicznymi.
+*   **Scenariusz główny:**
+1. Użytkownik wybiera moduł „Portfel Projektów”.
+2. System wyświetla listę wszystkich realizowanych projektów wraz z ich statusami.
+3. Użytkownik filtruje projekty według statusu lub jednostki.
+*   **Scenariusze alternatywne:**
+*   A1: Brak projektów w systemie → System wyświetla komunikat o braku danych .
+
+### Zbiorcza analiza finansowa
+*   **Aktorzy:** Opiekun/Dyrektor
+*   **Warunki początkowe:** Istnieją projekty z przypisanymi kosztami.
+*   **Scenariusz główny:**
+1. Użytkownik wybiera opcję „Raporty Finansowe”.
+2. Użytkownik wskazuje grupę projektów do analizy.
+3. System generuje raport zbiorczy kosztów.
+*   **Scenariusze alternatywne:**
+*   A1: Brak danych finansowych dla okresu → System instruuje o konieczności zmiany zakresu dat .
+
+### Akceptacja kamieni milowych i raportów końcowych
+*   **Aktorzy:** Opiekun/Dyrektor
+*   **Warunki początkowe:** Kierownik projektu przedłożył raport lub kamień milowy do zatwierdzenia.
+*   **Scenariusz główny:**
+1. Użytkownik otwiera powiadomienie o oczekującej akceptacji.
+2. Użytkownik przegląda rezultaty prac i efekty dostarczone przez zespół.
+3. Użytkownik zatwierdza raport końcowy.
+4. System zmienia status na „Zatwierdzony” i przygotowuje dane do wysyłki do instytucji finansującej.
+
+###  Podgląd wypracowanych rezultatów i efektów prac
+*   **Aktorzy:** Opiekun/Dyrektor
+*   **Warunki początkowe:**
+*   Użytkownik jest zalogowany do systemu.
+*   Członkowie zespołów przesłali wyniki prac lub aktualizacje statusów w swoich projektach.
+*   **Scenariusz główny:**
+1. Użytkownik wybiera moduł „Rezultaty Projektów”.
+2. System wyświetla listę projektów z informacją o najnowszych dostarczonych efektach (np. dokumentacja, analizy, prototypy).
+3. Użytkownik wybiera konkretny projekt, aby przejrzeć szczegółowe wypracowane rezultaty.
+4. System wyświetla podgląd plików lub opisów dostarczonych przez zespoły.
+*   **Scenariusze alternatywne:**
+*   A1: Brak przesłanych rezultatów dla wybranego okresu → System wyświetla komunikat o braku danych i instruuje użytkownika o konieczności zmiany parametrów wyszukiwania.
+*   A2: Próba otwarcia pliku o dużym rozmiarze → System zapewnia reakcję interfejsu w czasie poniżej 1 sekundy (np. poprzez wyświetlenie paska postępu pobierania).
+
+### Monitoring harmonogramów i weryfikacja terminowości
+*   **Aktorzy:** Opiekun/Dyrektor
+*   **Warunki początkowe:**
+*   Użytkownik jest zalogowany do systemu.
+*   Kierownicy projektów utworzyli harmonogramy i zdefiniowali kluczowe etapy (kamienie milowe).
+*   **Scenariusz główny:**
+1. Użytkownik wybiera moduł „Monitoring Harmonogramów”.
+2. System wyświetla widok zbiorczy (np. wykres Gantta lub listę kamieni milowych) dla wszystkich projektów w portfelu.
+3. Użytkownik filtruje widok, aby zidentyfikować projekty z zagrożonymi terminami lub opóźnieniami w kluczowych etapach.
+4. System wyróżnia (np. kolorem) etapy, których termin realizacji upłynął bez zmiany statusu na „Zakończone”.
+5. Użytkownik weryfikuje stopień zaawansowania prac w stosunku do planu.
+*   **Scenariusze alternatywne:**
+*   A1: Harmonogram projektu nie został jeszcze zdefiniowany → System informuje użytkownika, że Kierownik Projektu nie wprowadził jeszcze planu czasowego.
+*   A2: Brak uprawnień do szczegółowego harmonogramu wrażliwego projektu → System blokuje dostęp i wyświetla informację o braku odpowiednich uprawnień.
+---
 
