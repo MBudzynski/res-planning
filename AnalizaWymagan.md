@@ -58,7 +58,7 @@
 
 - **(Średni) Kontrola operacyjna:** Bieżący podgląd statusu realizacji zadań przez podległych pracowników
 
-- **(Wymagene) Weryfikacja merytoryczna potrzeb:** Przeglądanie i zatwierdzanie zapotrzebowania na materiały zgłoszonego przez członków zespołu przed przekazaniem go dale
+- **(Wymagene) Weryfikacja merytoryczna potrzeb:** Przeglądanie i zatwierdzanie zapotrzebowania na materiały zgłoszonego przez członków zespołu przed przekazaniem go dalej.
 
 - **(Wymagene) Komunikacja wewnętrzna:** Inicjowanie i prowadzenie sprawnej wymiany informacji między członkami projektu za pomocą systemu
 
@@ -153,4 +153,115 @@
 *   A1: Harmonogram projektu nie został jeszcze zdefiniowany → System informuje użytkownika, że Kierownik Projektu nie wprowadził jeszcze planu czasowego.
 *   A2: Brak uprawnień do szczegółowego harmonogramu wrażliwego projektu → System blokuje dostęp i wyświetla informację o braku odpowiednich uprawnień.
 ---
+## 2. Rola: Kierownik Projektu
+
+### Zarządzanie strukturą prac i harmonogramem
+*   **Aktorzy:** Kierownik projektu
+*   **Warunki początkowe:**
+*   Użytkownik zalogowany do systemu.
+*   Projekt został zainicjowany w systemie.
+*   **Scenariusz główny:**
+1. Użytkownik wybiera moduł zarządzania projektem.
+2. Użytkownik dodaje, edytuje lub usuwa zadania w strukturze projektu.
+3. Użytkownik definiuje ramy czasowe dla zadań, tworząc lub modyfikując harmonogram.
+4. System aktualizuje widok struktury prac i plan czasowy.
+*   **Scenariusze alternatywne:**
+*   A1: Błędne daty (np. zakończenie przed rozpoczęciem) → System wyświetla komunikat o błędzie i nie zapisuje zmian.
+*   A2: Brak uprawnień do edycji struktury → System blokuje dostęp do modułu.
+
+## 2. Rola: Kierownik Projektu
+
+### Zarządzanie strukturą prac i harmonogramem
+*   **Aktorzy:** Kierownik projektu
+*   **Warunki początkowe:**
+*   Użytkownik zalogowany do systemu.
+*   Projekt został zainicjowany w systemie.
+*   **Scenariusz główny:**
+1. Użytkownik wybiera moduł zarządzania projektem.
+2. Użytkownik dodaje, edytuje lub usuwa zadania w strukturze projektu.
+3. Użytkownik definiuje ramy czasowe dla zadań, tworząc lub modyfikując harmonogram.
+4. System aktualizuje widok struktury prac i plan czasowy.
+*   **Scenariusze alternatywne:**
+*   A1: Błędne daty (np. zakończenie przed rozpoczęciem) → System wyświetla komunikat o błędzie i nie zapisuje zmian.
+*   A2: Brak uprawnień do edycji struktury → System blokuje dostęp do modułu.
+
+### Monitorowanie kluczowych etapów (Kamienie milowe)
+*   **Aktorzy:** Kierownik projektu, Opiekun/Dyrektor
+*   **Warunki początkowe:**
+*   Zdefiniowano kamienie milowe w harmonogramie.
+*   **Scenariusz główny:**
+1. Użytkownik weryfikuje terminowość realizacji kluczowych etapów projektu.
+2. Po zakończeniu etapu, użytkownik przygotowuje raport końcowy lub informację o osiągnięciu kamienia milowego do akceptacji przez Dyrektora.
+3. System przesyła powiadomienie o gotowości do akceptacji do odpowiedniego interesariusza.
+
+
+## 3. Rola: Lider Zespołu
+
+### Formowanie zespołów i grup roboczych
+*   **Aktorzy:** Lider zespołu
+*   **Warunki początkowe:**
+*   Użytkownik jest zalogowany do systemu.
+*   W systemie dostępna jest baza pracowników z ich kwalifikacjami.
+*   **Scenariusz główny:**
+1. Użytkownik wybiera moduł „Zarządzanie Zespołem”.
+2. Użytkownik tworzy nową grupę roboczą przypisaną do konkretnego projektu.
+3. Użytkownik wyszukuje odpowiednich pracowników i przypisuje ich do grupy.
+4. System zapisuje skład zespołu i aktualizuje uprawnienia członków.
+*   **Scenariusze alternatywne:**
+*   A1: Brak dostępnych pracowników o wymaganych kompetencjach → System wyświetla instrukcję o konieczności aktualizacji bazy kwalifikacji.
+
+---
+
+### Zarządzanie strukturą prac i delegowanie zadań
+*   **Aktorzy:** Lider zespołu
+*   **Warunki początkowe:**
+*   Istnieje aktywny projekt ze strukturą prac.
+*   **Scenariusz główny:**
+1. Użytkownik otwiera moduł „Struktura Prac”.
+2. Użytkownik dodaje nowe zadania, edytuje istniejące lub usuwa zbędne elementy.
+3. Użytkownik przydziela konkretne zadania do poszczególnych członków zespołu.
+4. System przesyła automatyczne powiadomienie do pracownika o nowym zadaniu.
+*   **Scenariusze alternatywne:**
+*   A1: Próba przypisania zadania osobie spoza zespołu → System blokuje akcję i wyświetla komunikat o braku uprawnień.
+
+---
+
+### Kontrola operacyjna i monitoring statusów
+*   **Aktorzy:** Lider zespołu
+*   **Warunki początkowe:**
+*   Członkowie zespołu raportują postępy w swoich zadaniach.
+*   **Scenariusz główny:**
+1. Użytkownik wybiera widok „Kontrola Operacyjna”.
+2. System wyświetla bieżący status realizacji wszystkich zadań podległych pracowników w czasie rzeczywistym (reakcja < 1s).
+3. Użytkownik weryfikuje stopień zaawansowania prac merytorycznych.
+*   **Scenariusze alternatywne:**
+*   A1: Brak zaraportowanych postępów w wybranym okresie → System nie generuje błędu, lecz instruuje o braku danych od zespołu.
+
+---
+
+### Weryfikacja merytoryczna zapotrzebowania
+*   **Aktorzy:** Lider zespołu, Kierownik projektu, Księgowa
+*   **Warunki początkowe:**
+*   Członek zespołu zgłosił potrzebę zakupu materiałów.
+*   **Scenariusz główny:**
+1. Użytkownik otrzymuje powiadomienie o nowym wniosku merytorycznym.
+2. Użytkownik przegląda szczegóły zapotrzebowania pod kątem zasadności badawczej.
+3. Użytkownik zatwierdza wniosek merytoryczny.
+4. System przekazuje wniosek do dalszej weryfikacji finansowej przez Kierownika lub Księgową.
+*   **Scenariusze alternatywne:**
+*   A1: Wniosek zawiera niepełne dane merytoryczne → Lider odrzuca wniosek z prośbą o uzupełnienie informacji.
+
+---
+
+### Komunikacja wewnętrzna i wymiana informacji
+*   **Aktorzy:** Lider zespołu, Członek zespołu
+*   **Warunki początkowe:**
+*   Użytkownicy są przypisani do tego samego projektu.
+*   **Scenariusz główny:**
+1. Użytkownik inicjuje wymianę informacji poprzez systemowy moduł komunikacyjny.
+2. Użytkownik przesyła wiadomość lub instrukcje do członka zespołu.
+3. System szyfruje przesyłane dane protokołem TLS/SSL.
+4. Odbiorca otrzymuje powiadomienie o nowej wiadomości.
+
+
 
