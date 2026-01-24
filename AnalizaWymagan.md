@@ -4,7 +4,7 @@
 
 | L.p. | Interesariusz      | Opis                                                                                              |
 |------|--------------------|---------------------------------------------------------------------------------------------------|
-| 1.   | Opiekun/Dyrektor   | Rola ta koncentruje się na strategicznym nadzorze i analizie wyników w skali całej organizacji.   |
+| 1.   | Opiekun            | Koncentruje się na strategicznym nadzorze i analizie wyników.                                     |
 | 2.   | Kierownik projektu | Główny planista i osoba odpowiedzialna za merytoryczną oraz finansową stronę konkretnego badania. |
 | 3.   | Lider zespołu      | Osoba zarządzająca ludźmi i koordynująca codzienne działania badawcze.                            |
 | 4.   | Członek zespołu    | Bezpośredni wykonawca zadań, odpowiedzialny za dostarczanie merytorycznego wkładu w projekt.      |
@@ -12,7 +12,7 @@
 
 ## 2. Wymagania funkcjonalne 
 
-### Opiekun/Dyrektor
+### Opiekun
 
 - **(Wymagene) Nadzór nad portfelem projektów:** Możliwość monitorowania statusu wszystkich realizowanych projektów w systemie.
 
@@ -93,7 +93,7 @@
 
 # 4. Specyfikacja przypadków użycia
 
-## 1. Rola: Opiekun / Dyrektor
+## 1. Aktor: Opiekun
 
 ### Nadzór nad portfelem projektów
 *   **Aktorzy:** Opiekun/Dyrektor
@@ -102,6 +102,9 @@
 1. Użytkownik wybiera moduł „Portfel Projektów”.
 2. System wyświetla listę wszystkich realizowanych projektów wraz z ich statusami.
 3. Użytkownik filtruje projekty według statusu lub jednostki.
+4. Użytkownik może wyśweitelić szczegóły realizowanego  proejtku.
+5. Użytkownik może przeglądać faktur i pozostały budżet.
+6. Użytkownik weryfikować postęp prac i osignięce cele.
 *   **Scenariusze alternatywne:**
 *   A1: Brak projektów w systemie → System wyświetla komunikat o braku danych .
 
@@ -153,21 +156,8 @@
 *   A1: Harmonogram projektu nie został jeszcze zdefiniowany → System informuje użytkownika, że Kierownik Projektu nie wprowadził jeszcze planu czasowego.
 *   A2: Brak uprawnień do szczegółowego harmonogramu wrażliwego projektu → System blokuje dostęp i wyświetla informację o braku odpowiednich uprawnień.
 ---
-## 2. Rola: Kierownik Projektu
 
-### Zarządzanie strukturą prac i harmonogramem
-*   **Aktorzy:** Kierownik projektu
-*   **Warunki początkowe:**
-*   Użytkownik zalogowany do systemu.
-*   Projekt został zainicjowany w systemie.
-*   **Scenariusz główny:**
-1. Użytkownik wybiera moduł zarządzania projektem.
-2. Użytkownik dodaje, edytuje lub usuwa zadania w strukturze projektu.
-3. Użytkownik definiuje ramy czasowe dla zadań, tworząc lub modyfikując harmonogram.
-4. System aktualizuje widok struktury prac i plan czasowy.
-*   **Scenariusze alternatywne:**
-*   A1: Błędne daty (np. zakończenie przed rozpoczęciem) → System wyświetla komunikat o błędzie i nie zapisuje zmian.
-*   A2: Brak uprawnień do edycji struktury → System blokuje dostęp do modułu.
+![alt text](diagramy/aktor-opiekun.png)
 
 ## 2. Rola: Kierownik Projektu
 
