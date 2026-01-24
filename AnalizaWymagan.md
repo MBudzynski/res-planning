@@ -102,9 +102,6 @@
 1. Użytkownik wybiera moduł „Portfel Projektów”.
 2. System wyświetla listę wszystkich realizowanych projektów wraz z ich statusami.
 3. Użytkownik filtruje projekty według statusu lub jednostki.
-4. Użytkownik może wyśweitelić szczegóły realizowanego  proejtku.
-5. Użytkownik może przeglądać faktur i pozostały budżet.
-6. Użytkownik weryfikować postęp prac i osignięce cele.
 *   **Scenariusze alternatywne:**
 *   A1: Brak projektów w systemie → System wyświetla komunikat o braku danych .
 
