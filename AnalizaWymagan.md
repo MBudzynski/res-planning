@@ -186,6 +186,47 @@
 
 ![alt text](image-3.png)
 
+---
+
+### Zarządzanie zapotrzebowaniem i weryfikacja wydatków
+*   **Aktorzy:** Kierownik projektu
+*   **Warunki początkowe:**
+*   Użytkownik zalogowany, posiada uprawnienia do weryfikacji zamówień.
+*   Istnieje zapotrzebowanie zgłoszone przez zespół lub potrzeba zakupu sprzętu.
+*   **Scenariusz główny:**
+1. Użytkownik składa wniosek o zakup sprzętu lub materiałów niezbędnych do badań.
+2. Użytkownik przechodzi do modułu „Zamówienia” i przegląda szczegóły oczekujących wniosków.
+3. Użytkownik weryfikuje wydatki w ramach posiadanych uprawnień.
+4. Użytkownik zatwierdza lub odrzuca zamówienie.
+5. System aktualizuje status zamówienia i powiadamia zainteresowane osoby (np. Lidera zespołu, Księgową).
+*   **Scenariusze alternatywne:**
+*   A1: Brak środków w danej kategorii budżetowej → System blokuje akceptację i wyświetla informację o braku funduszy.
+
+---
+
+### Raportowanie operacyjne (koszty i postępy)
+*   **Aktorzy:** Kierownik projektu
+*   **Warunki początkowe:**
+*   W systemie zarejestrowano postępy prac lub wydatki.
+*   **Scenariusz główny:**
+1. Użytkownik wybiera funkcję generowania raportów.
+2. Użytkownik określa zakres czasowy oraz zakres raportu (koszty lub postępy realizacji).
+3. System generuje raport w czasie poniżej 1 sekundy.
+*   **Scenariusze alternatywne:**
+*   A1: Brak danych w wybranym zakresie → System nie generuje pustego błędu, lecz instruuje użytkownika o konieczności zmiany zakresu dat.
+
+---
+
+### Monitorowanie kluczowych etapów (Kamienie milowe)
+*   **Aktorzy:** Kierownik projektu, Opiekun/Dyrektor
+*   **Warunki początkowe:**
+*   Zdefiniowano kamienie milowe w harmonogramie.
+*   **Scenariusz główny:**
+1. Użytkownik weryfikuje terminowość realizacji kluczowych etapów projektu.
+2. Po zakończeniu etapu, użytkownik przygotowuje raport końcowy lub informację o osiągnięciu kamienia milowego do akceptacji przez Dyrektora.
+3. System przesyła powiadomienie o gotowości do akceptacji do odpowiedniego interesariusza.
+
+---
 
 
 
@@ -263,3 +304,69 @@
 ![alt text](image.png)
 
 ![alt text](image-1.png)
+
+## 5. Rola: Członek Zespołu
+
+### Raportowanie postępów i przesyłanie wyników prac
+*   **Aktorzy:** Członek zespołu
+*   **Warunki początkowe:**
+*   Użytkownik jest zalogowany do systemu.
+*   Użytkownik ma przypisane zadania w ramach projektu.
+*   **Scenariusz główny:**
+1. Użytkownik wybiera zadanie ze swojej listy w module „Moje Zadania”.
+2. Użytkownik aktualizuje status zadania (np. na „Zakończone”).
+3. Użytkownik przesyła plik lub opis zawierający wyniki wykonanej pracy.
+4. System szyfruje przesyłane dane protokołem TLS/SSL.
+5. System potwierdza zapisanie zmian w czasie poniżej 1 sekundy.
+*   **Scenariusze alternatywne:**
+*   A1: Próba przesłania wyników do zadania bez uprawnień → System blokuje dostęp zgodnie z polityką ochrony przed nieautoryzowanym dostępem.
+
+---
+
+### Obsługa powiadomień i komunikacja
+*   **Aktorzy:** Członek zespołu
+*   **Warunki początkowe:**
+*   W systemie zaszła zmiana dotycząca zadania (np. zmiana terminu) lub nadeszła nowa wiadomość.
+*   **Scenariusz główny:**
+1. System automatycznie wyświetla powiadomienie o nadchodzącym terminie lub zmianie w zadaniu.
+2. Użytkownik otwiera powiadomienie, aby zapoznać się ze szczegółami.
+3. Użytkownik przechodzi do modułu komunikacyjnego, aby wymienić informacje z innymi uczestnikami projektu (np. Liderem zespołu).
+4. System zapewnia pełną czytelność interfejsu zgodnie ze standardami WCAG.
+
+---
+
+### Rejestrowanie czasu pracy (Time-tracking)
+*   **Aktorzy:** Członek zespołu
+*   **Warunki początkowe:**
+*   Użytkownik realizuje konkretny eksperyment lub analizę w ramach projektu.
+*   **Scenariusz główny:**
+1. Użytkownik wybiera funkcję rejestracji czasu pracy.
+2. Użytkownik wskazuje projekt oraz konkretne działanie/eksperyment, którego dotyczy wpis.
+3. Użytkownik wprowadza liczbę godzin lub czas trwania aktywności.
+4. System zapisuje dane i aktualizuje statystyki czasowe projektu.
+*   **Scenariusze alternatywne:**
+*   A1: Brak danych o zadaniach w wybranym dniu → System instruuje użytkownika o konieczności zmiany zakresu dat lub wyboru innego zadania.
+
+---
+
+### Zarządzanie profilem i kompetencjami
+*   **Aktorzy:** Członek zespołu
+*   **Warunki początkowe:**
+*   Użytkownik zalogowany do systemu.
+*   **Scenariusz główny:**
+1. Użytkownik przechodzi do edycji profilu osobistego.
+2. Użytkownik aktualizuje swoje dane osobowe zgodnie z wymogami RODO.
+3. Użytkownik uzupełnia bazę kwalifikacji i umiejętności o nowe pozycje.
+4. System zapisuje zmiany, zapewniając ich ochronę przed nieautoryzowanym dostępem osób trzecich.
+
+---
+
+### Współpraca i wymiana informacji
+*   **Aktorzy:** Członek zespołu, Inni uczestnicy projektu
+*   **Warunki początkowe:**
+*   Użytkownik potrzebuje skonsultować wyniki prac.
+*   **Scenariusz główny:**
+1. Użytkownik korzysta z modułu komunikacyjnego do współpracy.
+2. Użytkownik wyszukuje uczestnika projektu.
+3. Użytkownik przesyła zapytanie lub dokumentację merytoryczną.
+4. System zapewnia dostępność funkcji w trybie 24/7.
