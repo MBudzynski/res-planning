@@ -155,6 +155,7 @@
 ---
 
 ![alt text](diagramy/aktor-opiekun.png)
+![alt text](image.png)
 
 ## 2. Rola: Kierownik Projektu
 
@@ -181,10 +182,7 @@
 2. Po zakończeniu etapu, użytkownik przygotowuje raport końcowy lub informację o osiągnięciu kamienia milowego do akceptacji przez Dyrektora.
 3. System przesyła powiadomienie o gotowości do akceptacji do odpowiedniego interesariusza.
 
-![alt text](image-2.png)
 
-
-![alt text](image-3.png)
 
 ---
 
@@ -228,7 +226,10 @@
 
 ---
 
+![alt text](image-2.png)
 
+
+![alt text](image-3.png)
 
 
 
