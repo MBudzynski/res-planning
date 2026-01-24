@@ -102,6 +102,9 @@
 1. Użytkownik wybiera moduł „Portfel Projektów”.
 2. System wyświetla listę wszystkich realizowanych projektów wraz z ich statusami.
 3. Użytkownik filtruje projekty według statusu lub jednostki.
+4. Użytkownik może wyśweitelić szczegóły realizowanego  projetku.
+5. Użytkownik może przeglądać faktur i pozostały budżet.
+6. Użytkownik weryfikować postęp prac i osignięce cele.
 *   **Scenariusze alternatywne:**
 *   A1: Brak projektów w systemie → System wyświetla komunikat o braku danych .
 
@@ -155,9 +158,8 @@
 ---
 
 ![alt text](diagramy/aktor-opiekun.png)
-![alt text](image.png)
 
-## 2. Rola: Kierownik Projektu
+## 2. Aktor: Kierownik Projektu
 
 ### Zarządzanie strukturą prac i harmonogramem
 *   **Aktorzy:** Kierownik projektu
@@ -181,8 +183,6 @@
 1. Użytkownik weryfikuje terminowość realizacji kluczowych etapów projektu.
 2. Po zakończeniu etapu, użytkownik przygotowuje raport końcowy lub informację o osiągnięciu kamienia milowego do akceptacji przez Dyrektora.
 3. System przesyła powiadomienie o gotowości do akceptacji do odpowiedniego interesariusza.
-
-
 
 ---
 
@@ -228,12 +228,9 @@
 
 ![alt text](image-2.png)
 
-
 ![alt text](image-3.png)
 
-
-
-## 3. Rola: Lider Zespołu
+## 3. Aktor: Lider Zespołu
 
 ### Formowanie zespołów i grup roboczych
 *   **Aktorzy:** Lider zespołu
@@ -298,8 +295,9 @@
 *   **Scenariusz główny:**
 1. Użytkownik inicjuje wymianę informacji poprzez systemowy moduł komunikacyjny.
 2. Użytkownik przesyła wiadomość lub instrukcje do członka zespołu.
-3. System szyfruje przesyłane dane protokołem TLS/SSL.
-4. Odbiorca otrzymuje powiadomienie o nowej wiadomości.
+3. Odbiorca otrzymuje powiadomienie o nowej wiadomości.
+4. *   **Scenariusze alternatywne:**
+*   A1: W przypadku błędu wysyłki system wyświetla komunikat.
 
 
 ![alt text](image.png)
