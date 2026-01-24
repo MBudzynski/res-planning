@@ -4,7 +4,7 @@
 
 | L.p. | Interesariusz      | Opis                                                                                              |
 |------|--------------------|---------------------------------------------------------------------------------------------------|
-| 1.   | Opiekun            | Koncentruje się na strategicznym nadzorze i analizie wyników.                                     |
+| 1.   | Opiekun            | Koncentruję się na strategicznym nadzorze i analizie wyników.                                     |
 | 2.   | Kierownik projektu | Główny planista i osoba odpowiedzialna za merytoryczną oraz finansową stronę konkretnego badania. |
 | 3.   | Lider zespołu      | Osoba zarządzająca ludźmi i koordynująca codzienne działania badawcze.                            |
 | 4.   | Członek zespołu    | Bezpośredni wykonawca zadań, odpowiedzialny za dostarczanie merytorycznego wkładu w projekt.      |
@@ -14,109 +14,97 @@
 
 ### Opiekun
 
-- **(Wymagene) Nadzór nad portfelem projektów:** Możliwość monitorowania statusu wszystkich realizowanych projektów w systemie.
+- **(Wymagene) Nadzór nad realizowanym projektem** Możliwość monitorowania realizowanego projektu w systemie.
 
-- **(Wymagene) Analiza finansowa:** Generowanie zbiorczych raportów kosztów dla wybranych projektów lub ich grup.
+- **(Wymagene) Podgląd wyników** Dostęp do podglądu wypracowanych rezultatów i efektów prac dostarczanych przez zespoły.
 
-- **(Wymagene) Podgląd wyników:** Dostęp do podglądu wypracowanych rezultatów i efektów prac dostarczanych przez zespoły.
+- **(Wymagene) Monitoring harmonogramów** Wgląd w harmonogramy projektu w celu weryfikacji terminowości kluczowych etapów realizacji projektu.
 
-- **(Wymagene) Monitoring harmonogramów:** Wgląd w harmonogramy projektów w celu weryfikacji terminowości kluczowych etapów realizacji projektów.
-
-- **(Wymagene) Akceptacja:** kamieni milowych oraz zatwierdzanie raportów końcowych przed ich wysłaniem do instytucji finansujących (np. grantodawców).
+- **(Wymagene) Akceptacja kamieni milowych i raportów** Podgląd i zatwierdzanie przed wysłaniem do instytucji finansujących (np. grantodawców).
 
 ### Kierownik projektu
 
-- **(Wymagene) Zarządzanie strukturą prac:** Dodawanie, edycja oraz usuwanie zadań w ramach struktury projektu.
+- **(Wymagene) Zarządzanie strukturą prac** Dodawanie, edycja oraz usuwanie zadań w ramach struktury projektu.
 
-- **(Wymagene) Planowanie czasowe:** Tworzenie i modyfikacja harmonogramu projektu.
+- **(Wymagene) Planowanie czasowe** Tworzenie i modyfikacja harmonogramu projektu.
 
-- **(Wymagene) Zarządzanie zapotrzebowaniem:** Składanie wniosków o zakup sprzętu i materiałów niezbędnych do realizacji projektu.
+- **(Wymagene) Zarządzanie zapotrzebowaniem** Składanie wniosków o zakup sprzętu/materiałów i materiałów niezbędnych do realizacji projektu. Przesyłanie zamówień do księgowości w celu akceptacji.
 
-- **(Wymagene) Planowanie budżetowe:** Wprowadzanie budżetu i precyzyjny podział środków na kategorie kosztowe, takie jak aparatura.
-
-- **(Wymagene) Weryfikacja wydatków:** Przeglądanie szczegółów zamówień i ich akceptacja w ramach posiadanych uprawnień.
-
-- **(Wymagene) Raportowanie operacyjne:** Generowanie raportów kosztów oraz postępów realizacji projektu w określonych zakresach czasowych.
-
-### Księgowa
-
-- **(Wymagene) Monitoring budżetu:** Stały podgląd aktualnego stanu budżetu, przydziału środków oraz ich wykorzystania.
-
-- **(Wymagene) Zarządzanie dokumentacją kosztową** Rejestrowanie faktur i przypisywanie ich do odpowiednich projektów badawczych
-
-- **(Wymagene) Realizacja płatności:** Obsługa procesów rozliczania i opłacania zweryfikowanych faktur
-
-- **(Wymagene) Weryfikacja finansowa zamówień:** Sprawdzanie dostępności środków w budżecie przed ostateczną akceptacją zapotrzebowania na sprzęt
-
-- **(Wymagene) Generowanie sprawozdań:** Tworzenie raportów finansowych z uwzględnieniem zrealizowanych zamówień i faktur
+- **(Wymagene) Raportowanie operacyjne** Generowanie raportów realizacji projektu w określonych zakresach czasowych.
 
 ### Lider zespołu
 
-- **(Wymagene) Formowanie zespołów:** Tworzenie grup roboczych oraz przypisywanie do nich odpowiednich pracowników
+- **(Wymagene) Dodawanie członków zespołów** System umożliwia dodawanie, edycje i usuwanie członków zespołów.
 
-- **(Wymagene) Delegowanie odpowiedzialności:** Przydzielanie konkretnych zadań do zespołów oraz poszczególnych ich członków
+- **(Wymagene) Formowanie zespołów** Tworzenie grup roboczych oraz przypisywanie do nich odpowiednich pracowników.
 
-- **(Średni) Kontrola operacyjna:** Bieżący podgląd statusu realizacji zadań przez podległych pracowników
+- **(Wymagene) Zarządzanie strukturą prac i delegowanie zadań** Dodawanie, edycja, usuwanie podzadań oraz przydzielanie konkretnych podzadań członkom zespołu.
 
-- **(Wymagene) Weryfikacja merytoryczna potrzeb:** Przeglądanie i zatwierdzanie zapotrzebowania na materiały zgłoszonego przez członków zespołu przed przekazaniem go dalej.
+- **(Średni) Kontrola operacyjna** Bieżący podgląd statusu realizacji zadań przez podległych pracowników
 
-- **(Wymagene) Komunikacja wewnętrzna:** Inicjowanie i prowadzenie sprawnej wymiany informacji między członkami projektu za pomocą systemu
+- **(Wymagene) Komunikacja wewnętrzna** Prowadzenie sprawnej wymiany informacji między członkami projektu za pomocą systemu.
 
-- **(Wymagene) Zarządzanie strukturą prac:** Dodawanie, edycja oraz usuwanie zadań
+- **(Wymagene) Raportowanie uzyskanych wyników** Dodawanie, edycja oraz usuwanie uzyskanych wyników.
+
+- **(Wymagene) Zarządzanie zapotrzebowaniem** Składanie wniosków o zakup sprzętu i materiałów niezbędnych do realizacji projektu.
+
+### Księgowa
+
+- **(Wymagene) Planowanie budżetowe** Wprowadzanie budżetu i precyzyjny podział środków na kategorie kosztowe.
+
+- **(Wymagene) Monitoring budżetu** Stały podgląd aktualnego stanu budżetu, przydziału środków oraz ich wykorzystania.
+
+- **(Wymagene) Zarządzanie dokumentacją kosztową** Rejestrowanie faktur i przypisywanie ich do odpowiednich projektów badawczych, kategorii kosztowych.
+
+- **(Wymagene) Realizacja płatności** Obsługa procesów rozliczania i opłacania zweryfikowanych faktur.
+
+- **(Wymagene) Weryfikacja finansowa zamówień** Sprawdzanie dostępności środków w budżecie przed ostateczną akceptacją zapotrzebowania na sprzęt
+
+- **(Wymagene) Analiza finansowa** Generowanie zbiorczych raportów kosztów dla wybranego projektu.
 
 ### Członek zespołu
 
-- **(Wymagene) Raportowanie postępów:** Przesyłanie wyników wykonanej pracy oraz aktualizacja statusów przypisanych zadań
+- **(Wymagene) Raportowanie postępów:** Przesyłanie wyników wykonanej pracy oraz aktualizacja statusów przypisanych podzadań.
 
-- **(Wymagene) Obsługa powiadomień:** Odbieranie automatycznych komunikatów o nadchodzących terminach i zmianach w zadaniach
+- **(Wymagene) Obsługa powiadomień:** System umożliwia automatyczne generowanie komunikatów o nadchodzących terminach i zmianach w zadaniach.
 
-- **(Wymagene) Wymiana informacji:** Korzystanie z modułów komunikacyjnych do współpracy z innymi uczestnikami projektu
+- **(Wymagene) Wymiana informacji:** System zapewnia korzystanie z modułów komunikacyjnych do współpracy z innymi uczestnikami projektu.
 
-- **(Średni) Rejestrowania czasu:** Możliwość rejestrowania czasu pracy (time-tracking) poświęconego na konkretne eksperymenty lub analizy w ramach projektu
-
-- **(Średni) Zarządzanie profilem** Edycja danych osobowych oraz aktualizacja bazy kwalifikacji i umiejętności
+- **(Średni) Rejestrowania czasu:** Możliwość rejestrowania czasu pracy (time-tracking) poświęconego na konkretne eksperymenty lub analizy w ramach projektu.
 
 ## 3. Wymagania niefunkcjonalne 
 
 
-| L.p. | Opis                                                                                                                                                    |
-|------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1    | **Dostępność i niezawodność** – System powinien być dostępny w trybie 24/7                                                                              |
-| 2    | **Wydajność** - System musi reagować na akcje użytkownika w czasie poniżej 1 sekundy                                                                    |
-| 3    | **Szyfrowanie** – Wszystkie dane muszą być szyfrowane zarówno podczas przesyłania (protokół TLS/SSL)                                                    |
-| 4    | **Ochrona przed nieautoryzowanym dostępem** – System musi blokować dostęp do wrażliwych modułów (finanse, zamówienia) osobom bez odpowiednich uprawnień |
-| 5    | **Skalowalność** – Architektura musi pozwalać na łatwe rozszerzanie zasobów (np. obsługę większej liczby projektów) oraz dodawanie nowych funkcjonalności bez konieczności przebudowy fundamentów systemu   |
-| 6    | **Zgodność z prawem** – System musi być w pełni zgodny z RODO w zakresie ochrony danych osobowych oraz z przepisami prawa finansowego                   |
-| 7    | **Standardy WCAG** –  Interfejs użytkownika (UI) musi być zaprojektowany zgodnie z wytycznymi WCAG, aby umożliwić komfortową pracę osobom z różnymi niepełnosprawnościami   |
-| 8    | **Komunikacja z użytkownikiem** – Kod i struktura systemu powinny ułatwiać rozwój i konserwację |
-| 9    | **Reakcja na brak danych:** – W sytuacjach, gdy dane w wybranym zakresie nie istnieją lub są niekompletne, system nie może wygenerować pustego błędu, lecz musi poinstruować użytkownika o konieczności zmiany zakresu lub uzupełnienia informacji  |
+| L.p. | Opis                                                                                                                                                                                                                                               |
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1    | **Dostępność i niezawodność** – System powinien być dostępny w trybie 24/7                                                                                                                                                                         |
+| 2    | **Wydajność** - System musi reagować na akcje użytkownika w czasie poniżej 1 sekundy                                                                                                                                                               |
+| 3    | **Szyfrowanie** – Wszystkie dane muszą być szyfrowane zarówno podczas przesyłania (protokół TLS/SSL)                                                                                                                                               |
+| 4    | **Ochrona przed nieautoryzowanym dostępem** – System musi blokować dostęp do wrażliwych modułów (finanse, zamówienia) osobom bez odpowiednich uprawnień                                                                                            |
+| 5    | **Skalowalność** – Architektura musi pozwalać na łatwe rozszerzanie zasobów (np. obsługę większej liczby projektów) oraz dodawanie nowych funkcjonalności bez konieczności przebudowy fundamentów systemu                                          |
+| 6    | **Zgodność z prawem** – System musi być w pełni zgodny z RODO w zakresie ochrony danych osobowych oraz z przepisami prawa finansowego                                                                                                              |
+| 7    | **Standardy WCAG** –  Interfejs użytkownika (UI) musi być zaprojektowany zgodnie z wytycznymi WCAG, aby umożliwić komfortową pracę osobom z różnymi niepełnosprawnościami                                                                          |
+| 8    | **Standardy architektoniczne** – Kod i struktura systemu powinny ułatwiać rozwój i konserwację                                                                                                                                                     |
+| 9    | **Reakcja na brak danych:** – W sytuacjach, gdy dane w wybranym zakresie nie istnieją lub są niekompletne, system nie może wygenerować pustego błędu, lecz musi poinstruować użytkownika o konieczności zmiany zakresu lub uzupełnienia informacji |
 
 # 4. Specyfikacja przypadków użycia
 
 ## 1. Aktor: Opiekun
 
-### Nadzór nad portfelem projektów
+### Nadzór nad realizowanym projektem.
 *   **Aktorzy:** Opiekun/Dyrektor
-*   **Warunki początkowe:** Użytkownik zalogowany z uprawnieniami strategicznymi.
+*   **Warunki początkowe:** Użytkownik zalogowany z uprawnieniami.
 *   **Scenariusz główny:**
-1. Użytkownik wybiera moduł „Portfel Projektów”.
+1. Użytkownik wybiera moduł „Podgląd Projektów”.
 2. System wyświetla listę wszystkich realizowanych projektów wraz z ich statusami.
 3. Użytkownik filtruje projekty według statusu lub jednostki.
-4. Użytkownik może wyśweitelić szczegóły realizowanego  projetku.
-5. Użytkownik może przeglądać faktur i pozostały budżet.
-6. Użytkownik weryfikować postęp prac i osignięce cele.
+4. Użytkownik może wyświetlić szczegóły realizowanego projetku.
+5. Użytkownik może przeglądać faktury i pozostały budżet.
+6. Użytkownik przegląda harmonogram i zaplanowane zadania.
+6. Użytkownik może weryfikować postęp prac i osignięte cele.
 *   **Scenariusze alternatywne:**
-*   A1: Brak projektów w systemie → System wyświetla komunikat o braku danych .
-
-### Zbiorcza analiza finansowa
-*   **Aktorzy:** Opiekun/Dyrektor
-*   **Warunki początkowe:** Istnieją projekty z przypisanymi kosztami.
-*   **Scenariusz główny:**
-1. Użytkownik wybiera opcję „Raporty Finansowe”.
-2. Użytkownik wskazuje grupę projektów do analizy.
-3. System generuje raport zbiorczy kosztów.
-*   **Scenariusze alternatywne:**
-*   A1: Brak danych finansowych dla okresu → System instruuje o konieczności zmiany zakresu dat .
+*   A1: Brak projektów w systemie → System wyświetla komunikat o braku realizowanych projektów.
+*   A2: Brak uprawnień do podglądu projektu → System wyświetla informacje o braku uprawnień.
 
 ### Akceptacja kamieni milowych i raportów końcowych
 *   **Aktorzy:** Opiekun/Dyrektor
@@ -127,7 +115,7 @@
 3. Użytkownik zatwierdza raport końcowy.
 4. System zmienia status na „Zatwierdzony” i przygotowuje dane do wysyłki do instytucji finansującej.
 
-###  Podgląd wypracowanych rezultatów i efektów prac
+###  Podgląd wyników
 *   **Aktorzy:** Opiekun/Dyrektor
 *   **Warunki początkowe:**
 *   Użytkownik jest zalogowany do systemu.
@@ -139,29 +127,30 @@
 4. System wyświetla podgląd plików lub opisów dostarczonych przez zespoły.
 *   **Scenariusze alternatywne:**
 *   A1: Brak przesłanych rezultatów dla wybranego okresu → System wyświetla komunikat o braku danych i instruuje użytkownika o konieczności zmiany parametrów wyszukiwania.
-*   A2: Próba otwarcia pliku o dużym rozmiarze → System zapewnia reakcję interfejsu w czasie poniżej 1 sekundy (np. poprzez wyświetlenie paska postępu pobierania).
+*   A2: Próba otwarcia pliku o dużym rozmiarze → System zapewnia reakcję interfejsu w czasie poniżej 1 sekundy (poprzez wyświetlenie paska postępu pobierania).
 
-### Monitoring harmonogramów i weryfikacja terminowości
+### Monitoring harmonogramów
 *   **Aktorzy:** Opiekun/Dyrektor
 *   **Warunki początkowe:**
 *   Użytkownik jest zalogowany do systemu.
 *   Kierownicy projektów utworzyli harmonogramy i zdefiniowali kluczowe etapy (kamienie milowe).
 *   **Scenariusz główny:**
 1. Użytkownik wybiera moduł „Monitoring Harmonogramów”.
-2. System wyświetla widok zbiorczy (np. wykres Gantta lub listę kamieni milowych) dla wszystkich projektów w portfelu.
-3. Użytkownik filtruje widok, aby zidentyfikować projekty z zagrożonymi terminami lub opóźnieniami w kluczowych etapach.
-4. System wyróżnia (np. kolorem) etapy, których termin realizacji upłynął bez zmiany statusu na „Zakończone”.
+2. System wyświetla widok zbiorczy (np. wykres Gantta lub listę kamieni milowych) dla projektu.
+3. Użytkownik filtruje widok, aby zidentyfikować zadania z zagrożonymi terminami lub opóźnieniami w kluczowych etapach.
+4. System wyróżnia etapy, których termin realizacji upłynął bez zmiany statusu na „Zakończone”.
 5. Użytkownik weryfikuje stopień zaawansowania prac w stosunku do planu.
 *   **Scenariusze alternatywne:**
 *   A1: Harmonogram projektu nie został jeszcze zdefiniowany → System informuje użytkownika, że Kierownik Projektu nie wprowadził jeszcze planu czasowego.
 *   A2: Brak uprawnień do szczegółowego harmonogramu wrażliwego projektu → System blokuje dostęp i wyświetla informację o braku odpowiednich uprawnień.
----
 
 ![alt text](diagramy/aktor-opiekun.png)
 
+---
+
 ## 2. Aktor: Kierownik Projektu
 
-### Zarządzanie strukturą prac i harmonogramem
+### Zarządzanie strukturą prac
 *   **Aktorzy:** Kierownik projektu
 *   **Warunki początkowe:**
 *   Użytkownik zalogowany do systemu.
@@ -175,197 +164,137 @@
 *   A1: Błędne daty (np. zakończenie przed rozpoczęciem) → System wyświetla komunikat o błędzie i nie zapisuje zmian.
 *   A2: Brak uprawnień do edycji struktury → System blokuje dostęp do modułu.
 
-### Monitorowanie kluczowych etapów (Kamienie milowe)
-*   **Aktorzy:** Kierownik projektu, Opiekun/Dyrektor
-*   **Warunki początkowe:**
-*   Zdefiniowano kamienie milowe w harmonogramie.
-*   **Scenariusz główny:**
-1. Użytkownik weryfikuje terminowość realizacji kluczowych etapów projektu.
-2. Po zakończeniu etapu, użytkownik przygotowuje raport końcowy lub informację o osiągnięciu kamienia milowego do akceptacji przez Dyrektora.
-3. System przesyła powiadomienie o gotowości do akceptacji do odpowiedniego interesariusza.
-
----
-
-### Zarządzanie zapotrzebowaniem i weryfikacja wydatków
+### Zarządzanie zapotrzebowaniem
 *   **Aktorzy:** Kierownik projektu
 *   **Warunki początkowe:**
 *   Użytkownik zalogowany, posiada uprawnienia do weryfikacji zamówień.
 *   Istnieje zapotrzebowanie zgłoszone przez zespół lub potrzeba zakupu sprzętu.
 *   **Scenariusz główny:**
-1. Użytkownik składa wniosek o zakup sprzętu lub materiałów niezbędnych do badań.
+1. Użytkownik składa wniosek o zakup sprzętu lub materiałów niezbędnych do realizacji zadań.
 2. Użytkownik przechodzi do modułu „Zamówienia” i przegląda szczegóły oczekujących wniosków.
-3. Użytkownik weryfikuje wydatki w ramach posiadanych uprawnień.
-4. Użytkownik zatwierdza lub odrzuca zamówienie.
-5. System aktualizuje status zamówienia i powiadamia zainteresowane osoby (np. Lidera zespołu, Księgową).
+3. Użytkownik weryfikuje statusy złożonych zamówień w ramach posiadanych uprawnień.
+4. Użytkownik składa wnioseku o realizacje zamówienia.
+5. System aktualizuje status zamówienia i powiadamia zainteresowane osoby (lidera zespołu, kieorwnika).
 *   **Scenariusze alternatywne:**
 *   A1: Brak środków w danej kategorii budżetowej → System blokuje akceptację i wyświetla informację o braku funduszy.
+*   A2: Księgowa odrzuca zamówienie → Księgowa wprowadza przyczynę odrzucenia wniosku zamówienia → System powiadamia kierownika o odrzuceniu wniosku z zamówieniem podając przyczynę.
 
----
-
-### Raportowanie operacyjne (koszty i postępy)
+### Raportowanie operacyjne
 *   **Aktorzy:** Kierownik projektu
 *   **Warunki początkowe:**
 *   W systemie zarejestrowano postępy prac lub wydatki.
 *   **Scenariusz główny:**
 1. Użytkownik wybiera funkcję generowania raportów.
-2. Użytkownik określa zakres czasowy oraz zakres raportu (koszty lub postępy realizacji).
-3. System generuje raport w czasie poniżej 1 sekundy.
+2. Użytkownik określa zakres czasowy oraz zakres raportu z postępu realizacji
+3. System generuje raport ze zadan które były zaplanowane na ten czas i ich realizacji.
 *   **Scenariusze alternatywne:**
-*   A1: Brak danych w wybranym zakresie → System nie generuje pustego błędu, lecz instruuje użytkownika o konieczności zmiany zakresu dat.
+*   A1: Brak danych w wybranym zakresie → System  instruuje użytkownika o konieczności zmiany zakresu dat.
 
----
-
-### Monitorowanie kluczowych etapów (Kamienie milowe)
-*   **Aktorzy:** Kierownik projektu, Opiekun/Dyrektor
+### Raportowanie operacyjne
+*   **Aktorzy:** Kierownik projektu
 *   **Warunki początkowe:**
-*   Zdefiniowano kamienie milowe w harmonogramie.
+*   Użytkownik zalogowany, posiada uprawnienia tworzenie i modyfikacja harmonogramu projektu.
 *   **Scenariusz główny:**
-1. Użytkownik weryfikuje terminowość realizacji kluczowych etapów projektu.
-2. Po zakończeniu etapu, użytkownik przygotowuje raport końcowy lub informację o osiągnięciu kamienia milowego do akceptacji przez Dyrektora.
-3. System przesyła powiadomienie o gotowości do akceptacji do odpowiedniego interesariusza.
-
----
+1. Użytkownik wybiera funkcję tworzenia harmonogramu .
+2. Użytkownik dodaje etapy trwania projektu oraz definiowaniuje daty ich trwania i zależności pomiędzy nimi.
+3. Użytkownik wyszukuje zadania i przypisuje je do poszczególnych etapów projektu.
+*   **Scenariusze alternatywne:**
+*   A1: Brak danych w wybranym zakresie → System instruuje użytkownika o konieczności zmiany zakresu dat.
+*   A2: Brak nieprzypisanych zadań → System informuje o braku zadań do przypisania.
+*   A3: Data rozpoczęcia jest po dacie końca etapu → System informuje o nieprawidłowym zakresie dat.
 
 ![alt text](image-2.png)
 
 ![alt text](image-3.png)
 
-## 3. Aktor: Lider Zespołu
-
-### Formowanie zespołów i grup roboczych
-*   **Aktorzy:** Lider zespołu
-*   **Warunki początkowe:**
-*   Użytkownik jest zalogowany do systemu.
-*   W systemie dostępna jest baza pracowników z ich kwalifikacjami.
-*   **Scenariusz główny:**
-1. Użytkownik wybiera moduł „Zarządzanie Zespołem”.
-2. Użytkownik tworzy nową grupę roboczą przypisaną do konkretnego projektu.
-3. Użytkownik wyszukuje odpowiednich pracowników i przypisuje ich do grupy.
-4. System zapisuje skład zespołu i aktualizuje uprawnienia członków.
-*   **Scenariusze alternatywne:**
-*   A1: Brak dostępnych pracowników o wymaganych kompetencjach → System wyświetla instrukcję o konieczności aktualizacji bazy kwalifikacji.
-
 ---
 
-### Zarządzanie strukturą prac i delegowanie zadań
-*   **Aktorzy:** Lider zespołu
+#### 3. Aktor: Lider Zespołu
+
+##### Dodawanie członków zespołów
+*   **Aktorzy:** Lider zespołu.
 *   **Warunki początkowe:**
-*   Istnieje aktywny projekt ze strukturą prac.
+    *   Użytkownik jest zalogowany do systemu.
+    *   W systemie dostępna jest baza pracowników wraz z ich kwalifikacjami.
+    *   Istnieje utworzona grupa robocza lub projekt.
 *   **Scenariusz główny:**
-1. Użytkownik otwiera moduł „Struktura Prac”.
-2. Użytkownik dodaje nowe zadania, edytuje istniejące lub usuwa zbędne elementy.
-3. Użytkownik przydziela konkretne zadania do poszczególnych członków zespołu.
-4. System przesyła automatyczne powiadomienie do pracownika o nowym zadaniu.
+    1. Użytkownik wybiera moduł **„Zarządzanie Zespołem”**.
+    2. Użytkownik wybiera opcję zarządzania składem osobowym konkretnej grupy.
+    3. Użytkownik wykonuje akcję **dodania, edycji lub usunięcia członka** z danego zespołu.
+    4. W przypadku dodawania, użytkownik wyszukuje odpowiednich pracowników w bazie (np. filtrując według kompetencji) i przypisuje ich do grupy.
+    5. System zapisuje aktualny skład zespołu i **automatycznie aktualizuje uprawnienia** członków w ramach projektu.
 *   **Scenariusze alternatywne:**
-*   A1: Próba przypisania zadania osobie spoza zespołu → System blokuje akcję i wyświetla komunikat o braku uprawnień.
+    *   A1: **Brak dostępnych pracowników** o wymaganych kompetencjach → System wyświetla instrukcję o konieczności aktualizacji bazy kwalifikacji.
+    *   A2: **Brak danych** w wybranym zakresie wyszukiwania → System instruuje użytkownika o konieczności zmiany parametrów (zgodnie z ogólną zasadą obsługi błędów).
 
----
 
-### Kontrola operacyjna i monitoring statusów
-*   **Aktorzy:** Lider zespołu
+##### Formowanie zespołów
+*   **Aktorzy:** Lider zespołu.
 *   **Warunki początkowe:**
-*   Członkowie zespołu raportują postępy w swoich zadaniach.
+    *   Użytkownik jest zalogowany do systemu.
+    *   W systemie dostępna jest baza pracowników wraz z ich kwalifikacjami.
 *   **Scenariusz główny:**
-1. Użytkownik wybiera widok „Kontrola Operacyjna”.
-2. System wyświetla bieżący status realizacji wszystkich zadań podległych pracowników w czasie rzeczywistym (reakcja < 1s).
-3. Użytkownik weryfikuje stopień zaawansowania prac merytorycznych.
+    1. Użytkownik wybiera moduł **„Zarządzanie Zespołem”**.
+    2. Użytkownik tworzy nową grupę roboczą przypisaną do konkretnego projektu.
+    3. Użytkownik wyszukuje odpowiednich pracowników i przypisuje ich do grupy (dodawanie członków).
+    4. System zapisuje skład zespołu i aktualizuje uprawnienia członków.
 *   **Scenariusze alternatywne:**
-*   A1: Brak zaraportowanych postępów w wybranym okresie → System nie generuje błędu, lecz instruuje o braku danych od zespołu.
+    *   A1: **Brak dostępnych pracowników** o wymaganych kompetencjach → System wyświetla instrukcję o konieczności aktualizacji bazy kwalifikacji.
 
----
-
-### Weryfikacja merytoryczna zapotrzebowania
-*   **Aktorzy:** Lider zespołu, Kierownik projektu, Księgowa
-*   **Warunki początkowe:**
-*   Członek zespołu zgłosił potrzebę zakupu materiałów.
+##### Zarządzanie strukturą prac i delegowanie zadań
+*   **Aktorzy:** Lider zespołu.
+*   **Warunki początkowe:** Istnieje aktywny projekt z określoną strukturą prac.
 *   **Scenariusz główny:**
-1. Użytkownik otrzymuje powiadomienie o nowym wniosku merytorycznym.
-2. Użytkownik przegląda szczegóły zapotrzebowania pod kątem zasadności badawczej.
-3. Użytkownik zatwierdza wniosek merytoryczny.
-4. System przekazuje wniosek do dalszej weryfikacji finansowej przez Kierownika lub Księgową.
+    1. Użytkownik otwiera moduł **„Struktura Prac”**.
+    2. Użytkownik dodaje nowe podzadania, edytuje istniejące lub usuwa zbędne elementy.
+    3. Użytkownik **przydziela konkretne zadania** (delegowanie odpowiedzialności) do poszczególnych członków zespołu.
+    4. System przesyła automatyczne powiadomienie do pracownika o nowym zadaniu.
 *   **Scenariusze alternatywne:**
-*   A1: Wniosek zawiera niepełne dane merytoryczne → Lider odrzuca wniosek z prośbą o uzupełnienie informacji.
+    *   A1: Próba przypisania zadania osobie spoza zespołu → System blokuje akcję i wyświetla komunikat o braku uprawnień.
+    *   A2: Brak podzadań do przydzielenia → System informuje o braku wolnych zadań.
 
----
-
-### Komunikacja wewnętrzna i wymiana informacji
-*   **Aktorzy:** Lider zespołu, Członek zespołu
-*   **Warunki początkowe:**
-*   Użytkownicy są przypisani do tego samego projektu.
+##### Kontrola operacyjna
+*   **Aktorzy:** Lider zespołu.
+*   **Warunki początkowe:** Członkowie zespołu raportują postępy w swoich zadaniach.
 *   **Scenariusz główny:**
-1. Użytkownik inicjuje wymianę informacji poprzez systemowy moduł komunikacyjny.
-2. Użytkownik przesyła wiadomość lub instrukcje do członka zespołu.
-3. Odbiorca otrzymuje powiadomienie o nowej wiadomości.
-4. *   **Scenariusze alternatywne:**
-*   A1: W przypadku błędu wysyłki system wyświetla komunikat.
+    1. Użytkownik wybiera widok **„Kontrola Operacyjna”**.
+    2. System wyświetla bieżący status realizacji wszystkich zadań podległych pracowników w czasie rzeczywistym,.
+    3. System zapewnia reakcję interfejsu w czasie **poniżej 1 sekundy**.
+    4. Użytkownik weryfikuje stopień zaawansowania prac merytorycznych.
+*   **Scenariusze alternatywne:**
+    *   A1: **Brak zaraportowanych postępów** w wybranym okresie → System instruuje o braku danych od zespołu.
 
+##### Komunikacja wewnętrzna
+*   **Aktorzy:** Lider zespołu, Członek zespołu.
+*   **Warunki początkowe:** Użytkownicy są przypisani do tego samego projektu.
+*   **Scenariusz główny:**
+    1. Użytkownik inicjuje wymianę informacji poprzez systemowy **moduł komunikacyjny**,.
+    2. Użytkownik przesyła wiadomość lub instrukcje do członka zespołu.
+    3. Odbiorca otrzymuje powiadomienie o nowej wiadomości.
+*   **Scenariusze alternatywne:**
+    *   A1: Błąd wysyłki → System wyświetla komunikat o błędzie.
+
+##### Raportowanie uzyskanych wyników
+*   **Aktorzy:** Lider zespołu,.
+*   **Warunki początkowe:** Wypracowano rezultaty prac badawczych.
+*   **Scenariusz główny:**
+    1. Użytkownik wybiera funkcję raportowania wyników.
+    2. Użytkownik **dodaje, edytuje lub usuwa** wypracowane rezultaty prac (np. dokumentację, analizy),.
+    3. System zapisuje dane i udostępnia je w module „Rezultaty Projektów” dla Opiekuna.
+
+##### Składanie wniosków o zapotrzebowanie
+*   **Aktorzy:** Lider zespołu,.
+*   **Warunki początkowe:** Istnieje potrzeba zakupu sprzętu lub materiałów do realizacji projektu,.
+*   **Scenariusz główny:**
+    1. Użytkownik składa własny **wniosek o zakup sprzętu lub materiałów**,.
+    2. System przesyła wniosek do dalszej akceptacji finansowej, analogicznie do procesu kierownika projektu.
+    3. System przekazuje wniosek do dalszej weryfikacji finansowej przez kierownika projektu i księgową.
+*   **Scenariusze alternatywne:**
+    *   A1: Wniosek zawiera niepełne dane → System pokazuje pola, które muszą zostać uzupełnione.
 
 ![alt text](image.png)
 
 ![alt text](image-1.png)
 
-## 5. Rola: Członek Zespołu
 
-### Raportowanie postępów i przesyłanie wyników prac
-*   **Aktorzy:** Członek zespołu
-*   **Warunki początkowe:**
-*   Użytkownik jest zalogowany do systemu.
-*   Użytkownik ma przypisane zadania w ramach projektu.
-*   **Scenariusz główny:**
-1. Użytkownik wybiera zadanie ze swojej listy w module „Moje Zadania”.
-2. Użytkownik aktualizuje status zadania (np. na „Zakończone”).
-3. Użytkownik przesyła plik lub opis zawierający wyniki wykonanej pracy.
-4. System szyfruje przesyłane dane protokołem TLS/SSL.
-5. System potwierdza zapisanie zmian w czasie poniżej 1 sekundy.
-*   **Scenariusze alternatywne:**
-*   A1: Próba przesłania wyników do zadania bez uprawnień → System blokuje dostęp zgodnie z polityką ochrony przed nieautoryzowanym dostępem.
 
----
-
-### Obsługa powiadomień i komunikacja
-*   **Aktorzy:** Członek zespołu
-*   **Warunki początkowe:**
-*   W systemie zaszła zmiana dotycząca zadania (np. zmiana terminu) lub nadeszła nowa wiadomość.
-*   **Scenariusz główny:**
-1. System automatycznie wyświetla powiadomienie o nadchodzącym terminie lub zmianie w zadaniu.
-2. Użytkownik otwiera powiadomienie, aby zapoznać się ze szczegółami.
-3. Użytkownik przechodzi do modułu komunikacyjnego, aby wymienić informacje z innymi uczestnikami projektu (np. Liderem zespołu).
-4. System zapewnia pełną czytelność interfejsu zgodnie ze standardami WCAG.
-
----
-
-### Rejestrowanie czasu pracy (Time-tracking)
-*   **Aktorzy:** Członek zespołu
-*   **Warunki początkowe:**
-*   Użytkownik realizuje konkretny eksperyment lub analizę w ramach projektu.
-*   **Scenariusz główny:**
-1. Użytkownik wybiera funkcję rejestracji czasu pracy.
-2. Użytkownik wskazuje projekt oraz konkretne działanie/eksperyment, którego dotyczy wpis.
-3. Użytkownik wprowadza liczbę godzin lub czas trwania aktywności.
-4. System zapisuje dane i aktualizuje statystyki czasowe projektu.
-*   **Scenariusze alternatywne:**
-*   A1: Brak danych o zadaniach w wybranym dniu → System instruuje użytkownika o konieczności zmiany zakresu dat lub wyboru innego zadania.
-
----
-
-### Zarządzanie profilem i kompetencjami
-*   **Aktorzy:** Członek zespołu
-*   **Warunki początkowe:**
-*   Użytkownik zalogowany do systemu.
-*   **Scenariusz główny:**
-1. Użytkownik przechodzi do edycji profilu osobistego.
-2. Użytkownik aktualizuje swoje dane osobowe zgodnie z wymogami RODO.
-3. Użytkownik uzupełnia bazę kwalifikacji i umiejętności o nowe pozycje.
-4. System zapisuje zmiany, zapewniając ich ochronę przed nieautoryzowanym dostępem osób trzecich.
-
----
-
-### Współpraca i wymiana informacji
-*   **Aktorzy:** Członek zespołu, Inni uczestnicy projektu
-*   **Warunki początkowe:**
-*   Użytkownik potrzebuje skonsultować wyniki prac.
-*   **Scenariusz główny:**
-1. Użytkownik korzysta z modułu komunikacyjnego do współpracy.
-2. Użytkownik wyszukuje uczestnika projektu.
-3. Użytkownik przesyła zapytanie lub dokumentację merytoryczną.
-4. System zapewnia dostępność funkcji w trybie 24/7.
