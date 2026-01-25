@@ -144,7 +144,7 @@
 *   A1: Harmonogram projektu nie został jeszcze zdefiniowany → System informuje użytkownika, że Kierownik Projektu nie wprowadził jeszcze planu czasowego.
 *   A2: Brak uprawnień do szczegółowego harmonogramu wrażliwego projektu → System blokuje dostęp i wyświetla informację o braku odpowiednich uprawnień.
 
-![alt text](diagramy/aktor-opiekun.png)
+![alt text](image-5.png)
 
 ---
 
@@ -203,9 +203,7 @@
 *   A2: Brak nieprzypisanych zadań → System informuje o braku zadań do przypisania.
 *   A3: Data rozpoczęcia jest po dacie końca etapu → System informuje o nieprawidłowym zakresie dat.
 
-![alt text](image-2.png)
-
-![alt text](image-3.png)
+![alt text](image-6.png)
 
 ---
 
@@ -292,9 +290,5 @@
 *   **Scenariusze alternatywne:**
     *   A1: Wniosek zawiera niepełne dane → System pokazuje pola, które muszą zostać uzupełnione.
 
-![alt text](image.png)
-
-![alt text](image-1.png)
-
-
+![alt text](image-7.png)
 
