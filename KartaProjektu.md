@@ -91,14 +91,14 @@ Korzyści:
 
 ## 7. Harmonogram wstępny
 
-|Etap| Zakres                  |Czas realizacji|
-|----|-------------------------|---------------|
-|1| Analiza wymagań i opracowanie specyfikacji        |Tydzień 1–2|
-|2| Projekt systemu (modele danych, UML, architektura)  |Tydzień 3–4|
-|3| Implementacja backendu  |Tydzień 5–7|
-|4| Implementacja frontendu |Tydzień 8–9|
-|5| Testy, integracja i poprawki       |Tydzień 10|
-|6| Prezentacja i odbiór projektu    |Tydzień 11|
+|Etap| Zakres                                             |Czas realizacji|
+|----|----------------------------------------------------|---------------|
+|1| Analiza wymagań i opracowanie specyfikacji         |Tydzień 1–2|
+|2| Projekt systemu (modele danych, UML, architektura) |Tydzień 3–4|
+|3| Implementacja backendu                             |Tydzień 5–7|
+|4| Implementacja frontendu                            |Tydzień 8–9|
+|5| Testy, integracja i poprawki                       |Tydzień 10|
+|6| Prezentacja i odbiór projektu                      |Tydzień 11|
 
 ## 8. Ryzyka i działania zapobiegawcze
 

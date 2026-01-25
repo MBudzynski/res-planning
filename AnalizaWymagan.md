@@ -14,61 +14,61 @@
 
 ### Opiekun
 
-- **(Wymagene) Nadzór nad realizowanym projektem** Możliwość monitorowania realizowanego projektu w systemie.
+- **(Wymagane) Nadzór nad realizowanym projektem** Możliwość monitorowania realizowanego projektu w systemie.
 
-- **(Wymagene) Podgląd wyników** Dostęp do podglądu wypracowanych rezultatów i efektów prac dostarczanych przez zespoły.
+- **(Wymagane) Podgląd wyników** Dostęp do podglądu wypracowanych rezultatów i efektów prac dostarczanych przez zespoły.
 
-- **(Wymagene) Monitoring harmonogramów** Wgląd w harmonogramy projektu w celu weryfikacji terminowości kluczowych etapów realizacji projektu.
+- **(Wymagane) Monitoring harmonogramów** Wgląd w harmonogramy projektu w celu weryfikacji terminowości kluczowych etapów realizacji projektu.
 
-- **(Wymagene) Akceptacja kamieni milowych i raportów** Podgląd i zatwierdzanie przed wysłaniem do instytucji finansujących (np. grantodawców).
+- **(Wymagane) Akceptacja kamieni milowych i raportów** Podgląd i zatwierdzanie przed wysłaniem do instytucji finansujących (np. grantodawców).
 
 ### Kierownik projektu
 
-- **(Wymagene) Zarządzanie strukturą prac** Dodawanie, edycja oraz usuwanie zadań w ramach struktury projektu.
+- **(Wymagane) Zarządzanie strukturą prac** Dodawanie, edycja oraz usuwanie zadań w ramach struktury projektu.
 
-- **(Wymagene) Planowanie czasowe** Tworzenie i modyfikacja harmonogramu projektu.
+- **(Wymagane) Planowanie czasowe** Tworzenie i modyfikacja harmonogramu projektu.
 
-- **(Wymagene) Zarządzanie zapotrzebowaniem** Składanie wniosków o zakup sprzętu/materiałów i materiałów niezbędnych do realizacji projektu. Przesyłanie zamówień do księgowości w celu akceptacji.
+- **(Wymagane) Zarządzanie zapotrzebowaniem** Składanie wniosków o zakup sprzętu/materiałów i materiałów niezbędnych do realizacji projektu. Przesyłanie zamówień do księgowości w celu akceptacji.
 
-- **(Wymagene) Raportowanie operacyjne** Generowanie raportów realizacji projektu w określonych zakresach czasowych.
+- **(Wymagane) Raportowanie operacyjne** Generowanie raportów realizacji projektu w określonych zakresach czasowych.
 
 ### Lider zespołu
 
-- **(Wymagene) Dodawanie członków zespołów** System umożliwia dodawanie, edycje i usuwanie członków zespołów.
+- **(Wymagane) Dodawanie członków zespołów** System umożliwia dodawanie, edycje i usuwanie członków zespołów.
 
-- **(Wymagene) Formowanie zespołów** Tworzenie grup roboczych oraz przypisywanie do nich odpowiednich pracowników.
+- **(Wymagane) Formowanie zespołów** Tworzenie grup roboczych oraz przypisywanie do nich odpowiednich pracowników.
 
-- **(Wymagene) Zarządzanie strukturą prac i delegowanie zadań** Dodawanie, edycja, usuwanie podzadań oraz przydzielanie konkretnych podzadań członkom zespołu.
+- **(Wymagane) Zarządzanie strukturą prac i delegowanie zadań** Dodawanie, edycja, usuwanie podzadań oraz przydzielanie konkretnych podzadań członkom zespołu.
 
 - **(Średni) Kontrola operacyjna** Bieżący podgląd statusu realizacji zadań przez podległych pracowników
 
-- **(Wymagene) Komunikacja wewnętrzna** Prowadzenie sprawnej wymiany informacji między członkami projektu za pomocą systemu.
+- **(Wymagane) Komunikacja wewnętrzna** Prowadzenie sprawnej wymiany informacji między członkami projektu za pomocą systemu.
 
-- **(Wymagene) Raportowanie uzyskanych wyników** Dodawanie, edycja oraz usuwanie uzyskanych wyników.
+- **(Wymagane) Raportowanie uzyskanych wyników** Dodawanie, edycja oraz usuwanie uzyskanych wyników.
 
-- **(Wymagene) Zarządzanie zapotrzebowaniem** Składanie wniosków o zakup sprzętu i materiałów niezbędnych do realizacji projektu.
+- **(Wymagane) Zarządzanie zapotrzebowaniem** Składanie wniosków o zakup sprzętu i materiałów niezbędnych do realizacji projektu.
 
 ### Księgowa
 
-- **(Wymagene) Planowanie budżetowe** Wprowadzanie budżetu i precyzyjny podział środków na kategorie kosztowe.
+- **(Wymagane) Planowanie budżetowe** Wprowadzanie budżetu i precyzyjny podział środków na kategorie kosztowe.
 
-- **(Wymagene) Monitoring budżetu** Stały podgląd aktualnego stanu budżetu, przydziału środków oraz ich wykorzystania.
+- **(Wymagane) Monitoring budżetu** Stały podgląd aktualnego stanu budżetu, przydziału środków oraz ich wykorzystania.
 
-- **(Wymagene) Zarządzanie dokumentacją kosztową** Rejestrowanie faktur i przypisywanie ich do odpowiednich projektów badawczych, kategorii kosztowych.
+- **(Wymagane) Zarządzanie dokumentacją kosztową** Rejestrowanie faktur i przypisywanie ich do odpowiednich projektów badawczych, kategorii kosztowych.
 
-- **(Wymagene) Realizacja płatności** Obsługa procesów rozliczania i opłacania zweryfikowanych faktur.
+- **(Wymagane) Realizacja płatności** Obsługa procesów rozliczania i opłacania zweryfikowanych faktur.
 
-- **(Wymagene) Weryfikacja finansowa zamówień** Sprawdzanie dostępności środków w budżecie przed ostateczną akceptacją zapotrzebowania na sprzęt
+- **(Wymagane) Weryfikacja finansowa zamówień** Sprawdzanie dostępności środków w budżecie przed ostateczną akceptacją zapotrzebowania na sprzęt
 
-- **(Wymagene) Analiza finansowa** Generowanie zbiorczych raportów kosztów dla wybranego projektu.
+- **(Wymagane) Analiza finansowa** Generowanie zbiorczych raportów kosztów dla wybranego projektu.
 
 ### Członek zespołu
 
-- **(Wymagene) Raportowanie postępów:** Przesyłanie wyników wykonanej pracy oraz aktualizacja statusów przypisanych podzadań.
+- **(Wymagane) Raportowanie postępów:** Przesyłanie wyników wykonanej pracy oraz aktualizacja statusów przypisanych podzadań.
 
-- **(Wymagene) Obsługa powiadomień:** System umożliwia automatyczne generowanie komunikatów o nadchodzących terminach i zmianach w zadaniach.
+- **(Wymagane) Obsługa powiadomień:** System umożliwia automatyczne generowanie komunikatów o nadchodzących terminach i zmianach w zadaniach.
 
-- **(Wymagene) Wymiana informacji:** System zapewnia korzystanie z modułów komunikacyjnych do współpracy z innymi uczestnikami projektu.
+- **(Wymagane) Wymiana informacji:** System zapewnia korzystanie z modułów komunikacyjnych do współpracy z innymi uczestnikami projektu.
 
 - **(Średni) Rejestrowania czasu:** Możliwość rejestrowania czasu pracy (time-tracking) poświęconego na konkretne eksperymenty lub analizy w ramach projektu.
 
@@ -92,7 +92,7 @@
 ## 1. Aktor: Opiekun
 
 ### Nadzór nad realizowanym projektem.
-*   **Aktorzy:** Opiekun/Dyrektor
+*   **Aktorzy:** Opiekun
 *   **Warunki początkowe:** Użytkownik zalogowany z uprawnieniami.
 *   **Scenariusz główny:**
 1. Użytkownik wybiera moduł „Podgląd Projektów”.
@@ -107,7 +107,7 @@
 *   A2: Brak uprawnień do podglądu projektu → System wyświetla informacje o braku uprawnień.
 
 ### Akceptacja kamieni milowych i raportów końcowych
-*   **Aktorzy:** Opiekun/Dyrektor
+*   **Aktorzy:** Opiekun
 *   **Warunki początkowe:** Kierownik projektu przedłożył raport lub kamień milowy do zatwierdzenia.
 *   **Scenariusz główny:**
 1. Użytkownik otwiera powiadomienie o oczekującej akceptacji.
@@ -116,7 +116,7 @@
 4. System zmienia status na „Zatwierdzony” i przygotowuje dane do wysyłki do instytucji finansującej.
 
 ###  Podgląd wyników
-*   **Aktorzy:** Opiekun/Dyrektor
+*   **Aktorzy:** Opiekun
 *   **Warunki początkowe:**
 *   Użytkownik jest zalogowany do systemu.
 *   Członkowie zespołów przesłali wyniki prac lub aktualizacje statusów w swoich projektach.
@@ -130,7 +130,7 @@
 *   A2: Próba otwarcia pliku o dużym rozmiarze → System zapewnia reakcję interfejsu w czasie poniżej 1 sekundy (poprzez wyświetlenie paska postępu pobierania).
 
 ### Monitoring harmonogramów
-*   **Aktorzy:** Opiekun/Dyrektor
+*   **Aktorzy:** Opiekun
 *   **Warunki początkowe:**
 *   Użytkownik jest zalogowany do systemu.
 *   Kierownicy projektów utworzyli harmonogramy i zdefiniowali kluczowe etapy (kamienie milowe).
