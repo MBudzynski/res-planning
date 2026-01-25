@@ -102,13 +102,13 @@ Korzyści:
 
 ## 8. Ryzyka i działania zapobiegawcze
 
-| Nr | Ryzyko                                             |Prawdopodobieństwo|Skutek| Działanie zapobiegawcze                                          |
-|----|----------------------------------------------------|-------------------|------|------------------------------------------------------------------|
-| 1  | Opóźnienia w realizacji funkcjonalności |Średnie|Wysoki| Regularne przeglądy sprintów i raporty postępów                          |
-| 2  | Niewystarczająca precyzja wymagań                 |Średnie|Wysoki| Cotygodniowe konsultacje z prowadzącym i klientem|
-| 3  | Brak doświadczenia w React/TypeScript             |Wysokie|Średni| Szkolenia i mentoring techniczny                                |
-| 4  | Niedostępność kluczowych członków zespołu         |Niskie|Wysoki| Dokumentacja procesów i plan zastępstw                               |
-| 5  | Ryzyko naruszenia danych osobowych         |Niskie|Wysoki| Zastosowanie zabezpieczeń RODO, szyfrowania i logowania dostępu        |
+| Nr | Ryzyko                                             |Prawdopodobieństwo|Skutek| Działanie zapobiegawcze                                 |
+|----|----------------------------------------------------|-------------------|------|---------------------------------------------------------|
+| 1  | Opóźnienia w realizacji funkcjonalności |Średnie|Wysoki| Regularne przeglądy sprintów i raporty postępów         |
+| 2  | Niewystarczająca precyzja wymagań                 |Średnie|Wysoki| Cotygodniowe konsultacje z prowadzącym i klientem       |
+| 3  | Brak doświadczenia w React/TypeScript             |Wysokie|Średni| Szkolenia i mentoring techniczny                        |
+| 4  | Niedostępność kluczowych członków zespołu         |Niskie|Wysoki| Dokumentacja procesów i plan zastępstw                  |
+| 5  | Ryzyko naruszenia danych osobowych         |Niskie|Wysoki| Zastosowanie zabezpieczeń RODO, szyfrowania i logowanie |
 
 ## 9. Rezultaty projektu
 
