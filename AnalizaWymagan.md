@@ -72,8 +72,7 @@
 
 - **(Średni) Rejestrowania czasu:** Możliwość rejestrowania czasu pracy (time-tracking) poświęconego na konkretne eksperymenty lub analizy w ramach projektu.
 
-## 3. Wymagania niefunkcjonalne 
-
+## 3. Wymagania niefunkcjonalne
 
 | L.p. | Opis                                                                                                                                                                                                                                               |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -96,7 +95,7 @@
 *   **Warunki początkowe:** Użytkownik zalogowany z uprawnieniami.
 *   **Scenariusz główny:**
 1. Użytkownik wybiera moduł „Podgląd Projektów”.
-2. System wyświetla listę wszystkich realizowanych projektów wraz z ich statusami.
+2. System wyświetla listę realizowanych projektów wraz z ich statusami.
 3. Użytkownik filtruje projekty według statusu lub jednostki.
 4. Użytkownik może wyświetlić szczegóły realizowanego projetku.
 5. Użytkownik może przeglądać faktury i pozostały budżet.
@@ -144,7 +143,7 @@
 *   A1: Harmonogram projektu nie został jeszcze zdefiniowany → System informuje użytkownika, że Kierownik Projektu nie wprowadził jeszcze planu czasowego.
 *   A2: Brak uprawnień do szczegółowego harmonogramu wrażliwego projektu → System blokuje dostęp i wyświetla informację o braku odpowiednich uprawnień.
 
-![alt text](image-5.png)
+![alt text](/diagramy/aktor-opiekun.png)
 
 ---
 
