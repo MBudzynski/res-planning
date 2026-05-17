@@ -13,10 +13,10 @@
 
 | Imię i nazwisko                                            |Rola w projekcie| Zakres odpowiedzialności                                                                                        |
 |------------------------------------------------------------|---------------|-----------------------------------------------------------------------------------------------------------------|
-| Piotr Kotarski                                             |Kierownik projektu| Planowanie, koordynacja, nadzór nad realizacją, kontakt z prowadzącym, raportowanie postępów                                         |
+| Janusz Lejtan                                           |Kierownik projektu| Planowanie, koordynacja, nadzór nad realizacją, kontakt z prowadzącym, raportowanie postępów                                         |
 | Jarosław Abramek                                           |Analityk| Analiza wymagań, modelowanie procesów, opracowanie przypadków użycia i diagramów UML                                                    |
-| Michał Budzyński                                           |Programista| Implementacja backendu (Java, Spring Boot), implementacja fronendu (React, TypScript)|
-| Piotr Kotarski <br/> Jarosław Abramek<br/>Michał Budzyński |Dokumentalista| Tworzenie dokumentacji technicznej i użytkowej, przygotowanie raportu i prezentacji końcowej                                                |
+| Artur Matuszewski                                          |Programista| Implementacja backendu (Java, Spring Boot), implementacja fronendu (React, TypScript)|
+| Piotr Kotarski <br/> |Dokumentalista| Tworzenie dokumentacji technicznej i użytkowej, przygotowanie raportu i prezentacji końcowej                                                |
 
 **Prowadzący:** mgr Wojciech Moniuszko
 
@@ -131,5 +131,5 @@ Korzyści:
 
 |Funkcja| Imię i nazwisko | Data       | Podpis                        |
 |-------|-----------------|------------|-------------------------------|
-|Kierownik projektu| Piotr Kotarski  | 19.10.2025 | _____________________________ |
-|Prowadzący| mgr Wojciech Moniuszko | 19.10.2025 | _____________________________                        |
+|Kierownik projektu| Janusz Lejtan  | 19.06.2026| _____________________________ |
+|Prowadzący| mgr Wojciech Moniuszko | 19.06.2026 | _____________________________                        |
