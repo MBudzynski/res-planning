@@ -1,3 +1,12 @@
-{
-	"folders": []
-}
+Czym zajmował się kto danego dnia:
+Piotr Kotarski
+1 maja	Utworzenie repozytorium Git dla projektu Unity, dodanie podstawowego .gitignore.
+4 maja	Weryfikacja, czy katalogi Library, Temp i Logs nie trafiają do repozytorium.
+7 maja	Konfiguracja środowiska Unity i Visual Studio.
+10 maja	Testy współpracy Git z plikami projektu Unity.
+13 maja	Optymalizacja reguł ignorowania plików generowanych automatycznie.
+16 maja	Sprawdzenie poprawności generowania plików .sln i .csproj.
+19 maja	Konfiguracja pierwszych buildów projektu.
+22 maja	Testy eksportu projektu na Android (.apk).
+25 maja	Rozwiązanie problemów z niechcianym dodawaniem plików tymczasowych do Git.
+28 maja	Aktualizacja konfiguracji repozytorium po zmianach w Unity.
