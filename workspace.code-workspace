@@ -1,5 +1,7 @@
 Czym zajmował się kto danego dnia:
-Piotr Kotarski
+
+Piotr Kotarski:   
+
 1 maja	Utworzenie repozytorium Git dla projektu Unity, dodanie podstawowego .gitignore.
 4 maja	Weryfikacja, czy katalogi Library, Temp i Logs nie trafiają do repozytorium.
 7 maja	Konfiguracja środowiska Unity i Visual Studio.
@@ -10,3 +12,11 @@ Piotr Kotarski
 22 maja	Testy eksportu projektu na Android (.apk).
 25 maja	Rozwiązanie problemów z niechcianym dodawaniem plików tymczasowych do Git.
 28 maja	Aktualizacja konfiguracji repozytorium po zmianach w Unity.
+30 maja Porządkowanie struktury projektu i katalogów buildów. Przygotowanie się do rozmowy z inwestorem.
+
+
+
+
+
+
+Uwagi: Brak kontaktu z resztą zespołu.
