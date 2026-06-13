@@ -15,7 +15,13 @@ Piotr Kotarski:
 25 maja	Rozwiązanie problemów z niechcianym dodawaniem plików tymczasowych do Git.
 28 maja	Aktualizacja konfiguracji repozytorium po zmianach w Unity.
 30 maja Porządkowanie struktury projektu i katalogów buildów. Przygotowanie się do rozmowy z inwestorem.
-
+3 czerwca	Weryfikacja integracji Addressables z repozytorium.
+6 czerwca	Testy generowania buildów i czyszczenia plików tymczasowych.
+9 czerwca	Analiza rozmiaru repozytorium i usunięcie zbędnych artefaktów.
+111 czerwca	Poprawki konfiguracji Android Build Support.
+13 czerwca	Przegląd ustawień projektu i aktualizacja .gitignore.
+15 czerwca	Testy współpracy zespołowej i konfliktów Git.
+17 czerwca	Weryfikacja poprawności eksportowanych buildów.
 
 
 
